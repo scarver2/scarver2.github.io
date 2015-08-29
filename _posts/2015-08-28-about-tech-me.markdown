@@ -8,12 +8,10 @@ But Rails isn't my only mainstay. I use many Ruby gems and technologies in the s
 
 The "Rails Way" works for me. Love the lingo. Scrum, DRY, TDD, CI, Git, Mocking, Stubbing... One day I'll learn what all those mean. :)
 
-I'm also heavily invoilved with ActiveAdmin - the best administrative dashboard EVER!
-
-Ansible, Git, GitHub, , , , Mandrill, Middleman, , , , RSpec, Rails 4.2, , . 
+I'm also heavily involved with <a href="http://activeadmin.info/" target="_blank">ActiveAdmin</a> - the best administrative dashboard <i>EVER!</i>
+I'm available for consulting, training, and integration.
 
 ## Production and Templating Gems
-ActiveAdmin (I'm available for consulting and integration)
 HAML
 Sidekiq
 state_machine
