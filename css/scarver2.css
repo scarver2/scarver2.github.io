@@ -1,0 +1,15 @@
+ul.2column {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
+ul.3column {
+  columns: 3;
+  -webkit-columns: 3;
+  -moz-columns: 3;
+}
+
+ul.nodot {
+	list-style: none;
+}

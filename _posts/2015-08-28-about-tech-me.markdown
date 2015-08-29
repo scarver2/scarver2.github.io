@@ -1,7 +1,6 @@
 ---
 layout: post
 ---
-<!--img src="/images/fulls/03.jpg" class="fit image"-->
 
 I'm a big fan of Ruby on Rails; have been ever since it's first appearance to the public in 2005. I'm proficient with many technologies, but I keep coming back to the world of Ruby on Rails. I can't ignore a decade of success with the framework.
 But Rails isn't my only mainstay. I use many Ruby gems and technologies in the start-ups I've established or participated.
@@ -11,37 +10,43 @@ The "Rails Way" works for me. Love the lingo. Scrum, DRY, TDD, CI, Git, Mocking,
 I'm also heavily involved with <a href="http://activeadmin.info/" target="_blank">ActiveAdmin</a> - the best administrative dashboard <i>EVER!</i>
 I'm available for consulting, training, and integration.
 
-## Production and Templating Gems
-HAML
-Sidekiq
-state_machine
-Sinatra
-Cuba
-Capistrano
-I18n
-highcharts
-rails-assets-cdn
-clockwork
-bluepill
-wicked (as in Cool, not the 666 stuff)
-wicked_pdf
-ransack
-paper_trail
-nokogiri
-kaminari
-liquid
-groupdate
-tinymce
-simple_form
-select2
-rmagick
-carrierwave
-refile
-acts-as-taggable-on
-ancestry
-friendly_id
+## A Few of My Favorite Things
+### Production and Templating Gems
 
-# Authentication and Authorization
+
+<ul class="3column nodot">
+	<li>haml
+	<li>sidekiq
+	<li>state_machine
+	<li>sinatra
+	<li>cuba
+	<li>capistrano
+	<li>I18n
+	<li>highcharts
+	<li>rails-assets-cdn
+	<li>clockwork
+	<li>bluepill
+	<li>wicked (as in Cool, not the 666 stuff)
+	<li>wicked_pdf (PDFs are the devil)
+	<li>ransack
+	<li>paper_trail
+	<li>nokogiri
+	<li>kaminari
+	<li>liquid
+	<li>groupdate
+	<li>tinymce
+	<li>simple_form
+	<li>select2
+	<li>rmagick
+	<li>carrierwave
+	<li>refile
+	<li>acts-as-taggable-on
+	<li>ancestry
+	<li>friendly_id
+</ul>
+
+
+## Authentication and Authorization
 sorcery
 cancan(can)
 devise
