@@ -1,13 +1,23 @@
-ul.2column {
+ul.2-column {
   columns: 2;
   -webkit-columns: 2;
   -moz-columns: 2;
 }
 
-ul.3column {
-  columns: 3;
-  -webkit-columns: 3;
+.columns3 {
+  -moz-column-count:3;
+  -moz-column-gap: 15px;
   -moz-columns: 3;
+  -ms-column-count:3;
+  -ms-column-gap: 15px;
+  -o-column-count:3;
+  -o-column-gap: 15px;
+  -webkit-column-count:3;
+  -webkit-column-gap: 15px;
+  -webkit-columns: 3;
+  column-count:3;
+  column-gap: 15px;
+  columns: 3;
 }
 
 ul.nodot {

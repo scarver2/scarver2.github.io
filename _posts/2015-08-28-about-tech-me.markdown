@@ -10,141 +10,181 @@ The "Rails Way" works for me. Love the lingo. Scrum, DRY, TDD, CI, Git, Mocking,
 I'm also heavily involved with <a href="http://activeadmin.info/" target="_blank">ActiveAdmin</a> - the best administrative dashboard <i>EVER!</i>
 I'm available for consulting, training, and integration.
 
-## A Few of My Favorite Things
+## A Few of My Favorite "Tech" Things
+
 ### Production and Templating Gems
 
 
-<ul class="3column nodot">
-	<li>haml
-	<li>sidekiq
-	<li>state_machine
-	<li>sinatra
-	<li>cuba
-	<li>capistrano
-	<li>I18n
-	<li>highcharts
-	<li>rails-assets-cdn
-	<li>clockwork
-	<li>bluepill
-	<li>wicked (as in Cool, not the 666 stuff)
-	<li>wicked_pdf (PDFs are the devil)
-	<li>ransack
-	<li>paper_trail
-	<li>nokogiri
-	<li>kaminari
-	<li>liquid
-	<li>groupdate
-	<li>tinymce
-	<li>simple_form
-	<li>select2
-	<li>rmagick
-	<li>carrierwave
-	<li>refile
-	<li>acts-as-taggable-on
-	<li>ancestry
-	<li>friendly_id
+<ul class="columns3 nodot">
+	<li>active_admin</li>
+	<li>acts-as-taggable-on</li>
+	<li>ancestry</li>
+	<li>bluepill</li>
+	<li>capistrano</li>
+	<li>carrierwave</li>
+	<li>clockwork</li>
+	<li>cuba</li>
+	<li>friendly_id</li>
+	<li>groupdate</li>
+	<li>haml</li>
+	<li>highcharts</li>
+	<li>I18n</li>
+	<li>kaminari</li>
+	<li>liquid</li>
+	<li>nokogiri</li>
+	<li>paper_trail</li>
+	<li>rails-assets-cdn</li>
+	<li>ransack</li>
+	<li>refile</li>
+	<li>rmagick</li>
+	<li>select2</li>
+	<li>sidekiq</li>
+	<li>simple_form</li>
+	<li>sinatra</li>
+	<li>state_machine</li>
+	<li>tinymce</li>
+	<li>wicked <i class="fa fa-info-circle" title="as in Cool, not the 666 stuff"></i></li>
+	<li>wicked_pdf <i class="fa fa-info-circle" title="PDFs are the devil"></i></li>
 </ul>
 
 
-## Authentication and Authorization
-sorcery
-cancan(can)
-devise
+## Authentication and Authorization Gems
+
+<ul class="columns3 nodot">
+	<li>sorcery</li>
+  <li>cancan(can)</li>
+	<li>devise</li>
+</ul>
 
 ## Performance and Test Gems
-vcr
-factory_girl
-timecop
-guard
-zonebie
-capybara
-database_cleaner
-RSpec
-shoulda
-simplecov
-rubocop
-faker
-bullet
-rails-footnotes
-spork
+
+<ul class="columns3 nodot">
+	<li>vcr</li>
+  <li>factory_girl</li>
+  <li>timecop</li>
+  <li>guard</li>
+  <li>zonebie</li>
+  <li>capybara</li>
+  <li>database_cleaner</li>
+  <li>rspec</li>
+  <li>shoulda</li>
+  <li>simplecov</li>
+  <li>rubocop</li>
+  <li>faker</li>
+  <li>bullet</li>
+  <li>rails-footnotes</li>
+  <li>spork</li>
+</ul>
 
 ## Development and Console Gems
-letter_opener (I'm a contributor)
-better_errors
-quiet_assets
-pry-byebug
-awesome_print
-marco-polo
-seedbank
+
+<ul class="columns3 nodot">
+	<li>letter_opener <i class="fa fa-info-circle" title="I'm a contributor"></i></li>
+	<li>better_errors</li>
+	<li>quiet_assets</li>
+	<li>pry-byebug</li>
+	<li>awesome_print</li>
+	<li>marco-polo</li>
+	<li>seedbank <i class="fa fa-info-circle" title="I'm a contributor"></i></li>
+</ul>
 
 ## Web Stuff
-jQuery
-jQueryUI
-SASS
-CoffeeScript
-ZURB Foundation
-960gs
-mediaelement
-highcharts
-dropzone
-Dabbling in Angular, React, Meteor. Interested to see who comes out on top in this arena.
+
+<ul class="columns3 nodot">
+	<li>jQuery</li>
+	<li>jQueryUI</li>
+	<li>SASS</li>
+	<li>CoffeeScript</li>
+	<li>ZURB Foundation</li>
+	<li>960gs</li>
+	<li>mediaelement</li>
+	<li>highcharts</li>
+	<li>dropzone</li>
+</ul>
+
+
+Dabbling in Angular, React, Meteor, Ember, Backbone. It will be interesting to see who comes out on top in this arena.
 
 ## Servers, Proxies, ISPs, and Operating Systems
-NGiNX
-Phusion Passenger
 
-Ubuntu
-OS X
-Windows
-Amiga
+<ul class="columns3 nodot">
+	<li>NGiNX</li>
+	<li>Phusion Passenger</li>
+</ul>
 
-Rackspace
-Digital Ocean
-Heroku
-Amazon AWS S3 and Cloudfront
-VULTR
-Linode
-Softlayer
+
+<ul class="columns3 nodot">
+	<li>Ubuntu</li>
+	<li>OS X</li>
+	<li>Windows</li>
+	<li>Amiga</li>
+</ul>
+
+
+<ul class="columns3 nodot">
+	<li>Rackspace</li>
+	<li>Digital Ocean</li>
+	<li>Heroku</li>
+	<li>Amazon AWS S3 and Cloudfront</li>
+	<li>VULTR</li>
+	<li>Linode</li>
+	<li>Softlayer</li>
+</ul>
+
 
 ## Database Experience
-PostgreSQL
-Redis
-Mongo
-SQL Server
-SQlite
-MySQL
-memcached
+
+<ul class="columns3 nodot">
+	<li>PostgreSQL</li>
+	<li>Redis</li>
+	<li>Mongo</li>
+	<li>SQL Server</li>
+	<li>SQlite</li>
+	<li>MySQL</li>
+	<li>Memcached</li>
+</ul>
+
 
 ## APIs
-Mercury Flight
-Fellowship One
-Tropo
-Twilio
-Nexmo
-SendGrid
-ConstantContact
-Commission Junction
-Highrise
-Google
-bitly
-braintree
-stripe
-paypal
+
+<ul class="columns3 nodot">
+	<li>Mercury Flight</li>
+	<li>Fellowship One</li>
+	<li>Tropo</li>
+	<li>Twilio</li>
+	<li>Nexmo</li>
+	<li>SendGrid</li>
+	<li>ConstantContact</li>
+	<li>Commission Junction</li>
+	<li>Highrise</li>
+	<li>Google</li>
+	<li>bitly</li>
+	<li>braintree</li>
+	<li>stripe</li>
+	<li>paypal</li>
+</ul>
+
 (Seriously, you really don't want me to list them all. I have no life)
 
 ## The Other Guys
-Chef
-Honeybadger
-NewRelic
-Panopta
-Vagrant
-(and a bunch more)
+
+<ul class="columns3 nodot">
+	<li>Chef</li>
+	<li>Honeybadger</li>
+	<li>NewRelic</li>
+	<li>Panopta</li>
+	<li>Vagrant</li>
+	<li>(and a bunch more)</li>
+</ul>
+
 
 ## My Creative Toolbelt
-LightWave 3D
-Adobe Premiere (I'm in the credits)
-Adobe Photoshop
-Adobe Illustrator
 
+<ul class="columns3 nodot">
+	<li>LightWave 3D</li>
+  <li>Adobe Premiere (I'm in the credits)</li>
+  <li>Adobe Photoshop</li>
+  <li>Adobe Illustrator</li>
+</ul>
 
 'nuf said.
