@@ -86,11 +86,11 @@ I put a trophy <i class="fa fa-trophy"></i> by <u>some</u> tech that I use _for 
 ## Development and Console Gems
 
 <ul class="columns3 nodot">
-	<li><a href="https://github.com/ryanb/letter_opener" target="_blank">letter_opener <i class="fa fa-info-circle" title="I'm a contributor"></i></a></li>
-	<li><a href="https://github.com/charliesome/better_errors" target="_blank">better_errors</a></li>
-	<li><a href="https://github.com/evrone/quiet_assets" target="_blank">quiet_assets</a></li>
-	<li><a href="https://github.com/deivid-rodriguez/pry-byebug" target="_blank">pry-byebug</a> <i class="fa fa-trophy"></i></li>
 	<li><a href="https://github.com/michaeldv/awesome_print" target="_blank">awesome_print</a></li>
+	<li><a href="https://github.com/charliesome/better_errors" target="_blank">better_errors</a></li>
+	<li><a href="https://github.com/ryanb/letter_opener" target="_blank">letter_opener <i class="fa fa-info-circle" title="I'm a contributor"></i></a></li>
+	<li><a href="https://github.com/deivid-rodriguez/pry-byebug" target="_blank">pry-byebug</a> <i class="fa fa-trophy"></i></li>
+	<li><a href="https://github.com/evrone/quiet_assets" target="_blank">quiet_assets</a></li>
 	<li><a href="https://github.com/arches/marco-polo" target="_blank">marco-polo</a></li>
 	<li><a href="https://github.com/james2m/seedbank" target="_blank">seedbank</a> <i class="fa fa-info-circle" title="I'm a contributor"></i></li>
 </ul>
@@ -98,17 +98,17 @@ I put a trophy <i class="fa fa-trophy"></i> by <u>some</u> tech that I use _for 
 ## Web Stuff
 
 <ul class="columns3 nodot">
+	<li><a href="http://960.gs/" target="_blank">960</a></li>
+	<li><a href="http://coffeescript.org/" target="_blank">CoffeeScript</a></li>
+	<li><a href="http://www.dropzonejs.com/" target="_blank">DropzoneJS</a></li>
+	<li><a href="http://www.highcharts.com/" target="_blank">Highcharts</a></li>
 	<li><a href="https://jquery.com/" target="_blank">jQuery</a></li>
 	<li><a href="http://jqueryui.com/" target="_blank">jQueryUI</a></li>
-	<li><a href="http://sass-lang.com/" target="_blank">SASS</a></li>
-	<li><a href="http://coffeescript.org/" target="_blank">CoffeeScript</a></li>
-	<li><a href="http://foundation.zurb.com/" target="_blank">ZURB Foundation</a> <i class="fa fa-trophy"></i></li>
-	<li><a href="http://960.gs/" target="_blank">960</a></li>
 	<li><a href="http://mediaelementjs.com/" target="_blank">MediaElement</a></li>
-	<li><a href="http://www.highcharts.com/" target="_blank">Highcharts</a></li>
-	<li><a href="http://www.dropzonejs.com/" target="_blank">DropzoneJS</a></li>
-	<li><a href="http://www.tinymce.com/" target="_blank">TinyMCE</a> <i class="fa fa-trophy"></i></li>
+	<li><a href="http://sass-lang.com/" target="_blank">SASS</a></li>
 	<li><a href="https://select2.github.io/" target="_blank">Select2</a></li>
+	<li><a href="http://www.tinymce.com/" target="_blank">TinyMCE</a> <i class="fa fa-trophy"></i></li>
+	<li><a href="http://foundation.zurb.com/" target="_blank">ZURB Foundation</a> <i class="fa fa-trophy"></i></li>
 </ul>
 
 
@@ -145,20 +145,19 @@ I'm dabbling with Angular, Backbone, Ember, Meteor, React, etc. It will be inter
 ## Database Experience
 
 <ul class="columns3 nodot">
+	<li><a href="https://www.mongodb.org/" target="_blank">MongoDB</a></li>
+	<li><a href="http://memcached.org/" target="_blank">Memcached</a></li>
+	<li><a href="https://www.mysql.com/" target="_blank">MySQL</a></li>
 	<li><a href="http://www.postgresql.org/" target="_blank">PostgreSQL</a> <i class="fa fa-trophy"></i></li>
 	<li><a href="http://redis.io/" target="_blank">Redis</a></li>
-	<li><a href="https://www.mongodb.org/" target="_blank">MongoDB</a></li>
 	<li><a href="http://www.microsoft.com/en-us/server-cloud/products/sql-server/" target="_blank">SQL Server</a></li>
 	<li><a href="https://www.sqlite.org/" target="_blank">SQLite</a></li>
-	<li><a href="https://www.mysql.com/" target="_blank">MySQL</a></li>
-	<li><a href="http://memcached.org/" target="_blank">Memcached</a></li>
 </ul>
 
 
 ## APIs
 
 <ul class="columns3 nodot">
-	<li><a href="http://www.mercuryflight.com/" target="_blank">Mercury Flight</a> <i class="fa fa-trophy"></i></li>
 	<li><a href="http://www.authorize.net/" target="_blank">Authorize.Net</a></li>
 	<li><a href="https://bitly.com/" target="_blank">Bitly</a></li>
 	<li><a href="https://www.braintreepayments.com/" target="_blank">Braintree</a></li>
@@ -170,6 +169,7 @@ I'm dabbling with Angular, Backbone, Ember, Meteor, React, etc. It will be inter
 	<li><a href="https://highrisehq.com/" target="_blank">Highrise</a></li>
 	<li><a href="https://www.linkedin.com/" target="_blank">LinkedIn</a></li>
 	<li><a href="http://mandrill.com/" target="_blank">Mandrill</a></li>
+	<li><a href="http://www.mercuryflight.com/" target="_blank">Mercury Flight</a> <i class="fa fa-trophy"></i></li>
 	<li><a href="https://www.nexmo.com/" target="_blank">Nexmo</a></li>
 	<li><a href="https://www.paypal.com/" target="_blank">PayPal</a></li>
 	<li><a href="https://sendgrid.com/" target="_blank">SendGrid</a></li>
