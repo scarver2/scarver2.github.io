@@ -159,23 +159,24 @@ I'm dabbling with Angular, Backbone, Ember, Meteor, React, etc. It will be inter
 
 <ul class="columns3 nodot">
 	<li><a href="http://www.mercuryflight.com/" target="_blank">Mercury Flight</a> <i class="fa fa-trophy"></i></li>
-	<li><a href="http://www.fellowshipone.com/" target="_blank">Fellowship One</a></li>
-	<li><a href="https://www.tropo.com/" target="_blank">Tropo</a></li>
-	<li><a href="https://twitter.com/" target="_blank">Twitter</a></li>
-	<li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
-	<li><a href="https://www.linkedin.com/" target="_blank">LinkedIn</a></li>
-	<li><a href="https://www.twilio.com/" target="_blank">Twilio</a></li>
-	<li><a href="https://www.nexmo.com/" target="_blank">Nexmo</a></li>
-	<li><a href="https://sendgrid.com/" target="_blank">SendGrid</a></li>
-	<li><a href="http://www.constantcontact.com" target="_blank">ConstantContact</a></li>
-	<li><a href="http://www.cj.com/" target="_blank">Commission Junction</a></li>
-	<li><a href="https://highrisehq.com/" target="_blank">Highrise</a></li>
-	<li><a href="https://developers.google.com" target="_blank">Google</a></li>
+	<li><a href="http://www.authorize.net/" target="_blank">Authorize.Net</a></li>
 	<li><a href="https://bitly.com/" target="_blank">Bitly</a></li>
 	<li><a href="https://www.braintreepayments.com/" target="_blank">Braintree</a></li>
-	<li><a href="https://stripe.com/" target="_blank">Stripe</a></li>
+	<li><a href="http://www.cj.com/" target="_blank">Commission Junction</a></li>
+	<li><a href="http://www.constantcontact.com" target="_blank">ConstantContact</a></li>
+	<li><a href="http://www.fellowshipone.com/" target="_blank">Fellowship One</a></li>
+	<li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+	<li><a href="https://developers.google.com" target="_blank">Google</a></li>
+	<li><a href="https://highrisehq.com/" target="_blank">Highrise</a></li>
+	<li><a href="https://www.linkedin.com/" target="_blank">LinkedIn</a></li>
+	<li><a href="http://mandrill.com/" target="_blank">Mandrill</a></li>
+	<li><a href="https://www.nexmo.com/" target="_blank">Nexmo</a></li>
 	<li><a href="https://www.paypal.com/" target="_blank">PayPal</a></li>
-	<li><a href="http://www.authorize.net/" target="_blank">Authorize.Net</a></li>
+	<li><a href="https://sendgrid.com/" target="_blank">SendGrid</a></li>
+	<li><a href="https://stripe.com/" target="_blank">Stripe</a></li>
+	<li><a href="https://www.tropo.com/" target="_blank">Tropo</a></li>
+	<li><a href="https://www.twilio.com/" target="_blank">Twilio</a></li>
+	<li><a href="https://twitter.com/" target="_blank">Twitter</a></li>
 </ul>
 
 Seriously, you really don't want me to list them all. Yes, I have no life
