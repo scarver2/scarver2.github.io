@@ -128,6 +128,7 @@ I'm dabbling with Angular, Backbone, Ember, Meteor, React, etc. It will be inter
 
 <ul class="columns3 nodot">
 	<li><a href="http://nginx.org/" target="_blank">NGiNX</a></li>
+	<li><a href="https://wiki.postgresql.org/wiki/PgBouncer" target="_blank">PgBouncer</a></li>
 	<li><a href="https://www.phusionpassenger.com/" target="_blank">Phusion Passenger</a> <i class="fa fa-trophy"></i></li>
 </ul>
 
@@ -189,12 +190,14 @@ I'm dabbling with Angular, Backbone, Ember, Meteor, React, etc. It will be inter
 	<li><a href="https://twitter.com/" target="_blank">Twitter</a></li>
 </ul>
 
-Seriously, you really don't want me to list them all. Yes, I have no life
+Seriously, you really don't want me to list them all.
 
 ## The Other Guys
 
 <ul class="columns3 nodot">
 	<li><a href="https://www.chef.io/" target="_blank">Chef</a></li>
+	<li><a href="https://github.com/" target="_blank">GitHub</a></li>
+	<li><a href="http://nvie.com/posts/a-successful-git-branching-model/" target="_blank">Git Flow</a></li>
 	<li><a href="http://brew.sh/" target="_blank">Homebrew</a> <i class="fa fa-trophy"></i></li>
 	<li><a href="https://www.honeybadger.io/" target="_blank">Honeybadger</a> <i class="fa fa-trophy"></i></li>
 	<li><a href="https://newrelic.com/" target="_blank">New Relic</a></li>
