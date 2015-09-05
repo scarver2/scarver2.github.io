@@ -5,17 +5,27 @@ layout: post
 I'm a big fan of Ruby on Rails&mdash;have been ever since it's first public appearance in 2005. I'm proficient with many technologies, but I keep coming back to the world of Ruby on Rails. I can't ignore a decade of success with the framework.
 But Rails isn't my only mainstay. I use many Ruby gems and technologies in the start-ups I've established or participated.
 
-The "Rails Way" works for me. Love the lingo. SCRUM, DRY, TDD, KISS, CI, Git, Mocking, Stubbing... One day I'll learn what all those mean. :)
+The "Rails Way" works for me. Love the lingo. SCRUM, DRY, TDD, KISS, CI, Git, Mocking, Stubbing...one day I'll learn what all those mean. :)
 
 I'm also heavily involved with <a href="http://activeadmin.info/" target="_blank">ActiveAdmin</a>&mdash;the best administrative dashboard <i>EVER!</i>
 I'm available for consulting, training, and integration of ActiveAdmin.
 
 ## A Few of My Favorite "Tech" Things
 
-I get asked "What's my favorite gems?", "What gems do I use?", or "Do you know how to use ________ program?"
+I get asked "What do I use to develop?", "What are my favorite gems?", or "Do you know how to use ________ program?"
 Of the 1,000+ gems installed on my computer, I finally compiled a list of my "get'r done" gems,
 plus some other tech I rely on.
 I put a trophy <i class="fa fa-trophy"></i> by <u>some</u> tech that I use _for the win!_
+
+### Agile Development and Project Management
+
+<ul class="columns3 nodot">
+	<li><a href="https://basecamp.com/" target="_blank">Basecamp</a></li>
+	<li><a href="https://www.pivotaltracker.com/" target="_blank">Pivotal Tracker</a></li>
+	<li><a href="https://slack.com/" target="_blank">Slack</a></li>
+	<li><a href="http://www.skype.com/" target="_blank">Skype</a></li>
+	<li><a href="https://www.wunderlist.com/" target="_blank">Wunderlist</a></li>
+</ul>
 
 ### Production and Templating Gems
 
@@ -53,34 +63,34 @@ I put a trophy <i class="fa fa-trophy"></i> by <u>some</u> tech that I use _for 
 ## Authentication and Authorization Gems
 
 <ul class="columns3 nodot">
-	<li><a href="https://github.com/NoamB/sorcery" target="_blank">sorcery</a></li>
   <li><a href="https://github.com/ryanb/cancan" target="_blank">cancan</a>(<a href="https://github.com/CanCanCommunity/cancancan" target="_blank">can</a>) <i class="fa fa-trophy"></i></li>
 	<li><a href="https://github.com/plataformatec/devise" target="_blank">devise</a></li>
-	<li><a href="https://github.com/elabs/pundit" target="_blank">pundit</a></li>
 	<li><a href="http://intridea.github.io/omniauth/" target="_blank">omniauth</a></li>
+	<li><a href="https://github.com/elabs/pundit" target="_blank">pundit</a></li>
 	<li><a href="https://github.com/martinrehfeld/role_model" target="_blank">role_model</a></li>
 	<li><a href="http://rolifycommunity.github.io/rolify/" target="_blank">rolify</a></li>
+	<li><a href="https://github.com/NoamB/sorcery" target="_blank">sorcery</a></li>
 </ul>
 
 ## Performance, Quality, and Test Gems
 
 <ul class="columns3 nodot">
-	<li><a href="https://github.com/vcr/vcr" target="_blank">vcr</a></li>
-  <li><a href="https://github.com/thoughtbot/factory_girl" target="_blank">factory_girl</a></li>
-  <li><a href="https://github.com/travisjeffery/timecop" target="_blank">timecop</a></li>
-  <li><a href="https://github.com/guard/guard" target="_blank">guard</a></li>
-  <li><a href="https://github.com/alindeman/zonebie" target="_blank">zonebie</a></li>
+  <li><a href="https://github.com/flyerhzm/bullet" target="_blank">bullet</a></li>
   <li><a href="https://github.com/jnicklas/capybara" target="_blank">capybara</a></li>
   <li><a href="https://github.com/DatabaseCleaner/database_cleaner" target="_blank">database_cleaner</a></li>
+  <li><a href="https://github.com/thoughtbot/factory_girl" target="_blank">factory_girl</a></li>
+  <li><a href="https://github.com/stympy/faker" target="_blank">faker</a></li>
+  <li><a href="https://github.com/guard/guard" target="_blank">guard</a></li>
   <li><a href="http://rspec.info/" target="_blank">rspec</a></li>
+  <li><a href="https://github.com/troessner/reek" target="_blank">reek</a></li>
+  <li><a href="https://github.com/bbatsov/rubocop" target="_blank">rubocop</a></li>
+  <li><a href="https://github.com/josevalim/rails-footnotes" target="_blank">rails-footnotes</a></li>
   <li><a href="https://github.com/thoughtbot/shoulda" target="_blank">shoulda</a></li>
   <li><a href="https://github.com/colszowka/simplecov" target="_blank">simplecov</a> <i class="fa fa-trophy"></i></li>
-  <li><a href="https://github.com/bbatsov/rubocop" target="_blank">rubocop</a></li>
-  <li><a href="https://github.com/stympy/faker" target="_blank">faker</a></li>
-  <li><a href="https://github.com/troessner/reek" target="_blank">reek</a></li>
-  <li><a href="https://github.com/flyerhzm/bullet" target="_blank">bullet</a></li>
-  <li><a href="https://github.com/josevalim/rails-footnotes" target="_blank">rails-footnotes</a></li>
   <li><a href="https://github.com/sporkrb/spork" target="_blank">spork</a></li>
+  <li><a href="https://github.com/travisjeffery/timecop" target="_blank">timecop</a></li>
+	<li><a href="https://github.com/vcr/vcr" target="_blank">vcr</a></li>
+  <li><a href="https://github.com/alindeman/zonebie" target="_blank">zonebie</a></li>
 </ul>
 
 ## Development and Console Gems
@@ -88,7 +98,7 @@ I put a trophy <i class="fa fa-trophy"></i> by <u>some</u> tech that I use _for 
 <ul class="columns3 nodot">
 	<li><a href="https://github.com/michaeldv/awesome_print" target="_blank">awesome_print</a></li>
 	<li><a href="https://github.com/charliesome/better_errors" target="_blank">better_errors</a></li>
-	<li><a href="https://github.com/ryanb/letter_opener" target="_blank">letter_opener <i class="fa fa-info-circle" title="I'm a contributor"></i></a></li>
+	<li><a href="https://github.com/ryanb/letter_opener" target="_blank">letter_opener</a> <i class="fa fa-info-circle" title="I'm a contributor"></i></li>
 	<li><a href="https://github.com/deivid-rodriguez/pry-byebug" target="_blank">pry-byebug</a> <i class="fa fa-trophy"></i></li>
 	<li><a href="https://github.com/evrone/quiet_assets" target="_blank">quiet_assets</a></li>
 	<li><a href="https://github.com/arches/marco-polo" target="_blank">marco-polo</a></li>
