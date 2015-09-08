@@ -47,6 +47,7 @@ I put a trophy <i class="fa fa-trophy"></i> by <u>some</u> tech that I use _for 
 	<li><a href="http://www.nokogiri.org/" target="_blank">nokogiri</a></li>
 	<li><a href="https://github.com/airblade/paper_trail" target="_blank">paper_trail</a></li>
 	<li><a href="https://github.com/TMXCredit/pg_power" target="_blank">pg_power</a> <i class="fa fa-info-circle" title="Featured on episode 460 of Ruby5 by yours truly"></i></li>
+	<li><a href="https://github.com/Casecommons/pg_search" target="_blank">pg_search</a></li>
 	<li><a href="https://github.com/cmer/rails-assets-cdn" target="_blank">rails-assets-cdn</a></li>
 	<li><a href="https://github.com/activerecord-hackery/ransack" target="_blank">ransack</a></li>
 	<li><a href="https://github.com/refile/refile" target="_blank">refile</a></li>
@@ -55,10 +56,10 @@ I put a trophy <i class="fa fa-trophy"></i> by <u>some</u> tech that I use _for 
 	<li><a href="https://github.com/plataformatec/simple_form" target="_blank">simple_form</a> <i class="fa fa-trophy"></i></li>
 	<li><a href="http://www.sinatrarb.com/" target="_blank">sinatra</a></li>
 	<li><a href="https://github.com/pluginaweek/state_machine" target="_blank">state_machine</a> <i class="fa fa-trophy"></i></li>
+	<li><a href="http://freelancing-gods.com/thinking-sphinx/" target="_blank">thinking_sphinx</a></li>
 	<li><a href="https://github.com/schneems/wicked" target="_blank">wicked</a> <i class="fa fa-info-circle" title="as in Cool, not the 666 stuff"></i></li>
 	<li><a href="https://github.com/mileszs/wicked_pdf" target="_blank">wicked_pdf</a> <i class="fa fa-info-circle" title="PDFs are the devil"></i></li>
 </ul>
-
 
 ## Authentication and Authorization Gems
 
