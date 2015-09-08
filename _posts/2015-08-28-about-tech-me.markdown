@@ -5,7 +5,7 @@ layout: post
 I'm a big fan of Ruby on Rails&mdash;have been ever since it's first public appearance in 2005. I'm proficient with many technologies, but I keep coming back to the world of Ruby on Rails. I can't ignore a decade of success with the framework.
 But Rails isn't my only mainstay. I use many Ruby gems and technologies in the start-ups I've established or participated.
 
-The "Rails Way" works for me. Love the lingo. SCRUM, DRY, TDD, KISS, CI, Git, Mocking, Stubbing...one day I'll learn what all those mean. :)
+The "Rails Way" works for me. I love the lingo. SCRUM, DRY, SRP, TDD, KISS, CI, Git, Mocking, Stubbing...one day I'll learn what all those mean. :)
 
 I'm also heavily involved with <a href="http://activeadmin.info/" target="_blank">ActiveAdmin</a>&mdash;the best administrative dashboard <i>EVER!</i>
 I'm available for consulting, training, and integration of ActiveAdmin.
