@@ -2,7 +2,7 @@
 layout: post
 ---
 
-I'm a big fan of Ruby on Rails&mdash;have been ever since it's first public appearance in 2005. I'm proficient with many technologies, but I keep coming back to the world of Ruby on Rails. I can't ignore a decade of success with the framework.
+I am a big fan of [Ruby on Rails](https://rubyonrails.org) &mdash; have been ever since it's first public appearance in 2005. I'm proficient with many technologies, but I keep coming back to the world of Ruby on Rails. I can't ignore a decade of success with the framework. From creating simple Mom&Pop websites to my rapid expansion of Fortune 1000 enterprises, Ruby on Rails has been proven it's capabilities in my hands many times over.
 But Rails isn't my only mainstay. I use many Ruby gems and technologies in the start-ups I've established or participated.
 
 The "Rails Way" works for me. I love the lingo. SCRUM, DRY, SRP, TDD, KISS, CI, Git, Mocking, Stubbing...one day I'll learn what all those mean. :)
@@ -24,7 +24,8 @@ I put a trophy <i class="fa fa-trophy"></i> by <u>some</u> tech that I use _for 
 	<li><a href="https://www.pivotaltracker.com/" target="_blank">Pivotal Tracker</a></li>
 	<li><a href="https://slack.com/" target="_blank">Slack</a></li>
 	<li><a href="http://www.skype.com/" target="_blank">Skype</a></li>
-	<li><a href="https://www.wunderlist.com/" target="_blank">Wunderlist</a></li>
+	<!--li><a href="https://www.wunderlist.com/" target="_blank">Wunderlist</a></li-->
+	<li><a href="https://www.todoist.com/" target="_blank">Todoist</a></li>
 </ul>
 
 ### Production and Templating Gems
@@ -108,22 +109,29 @@ I put a trophy <i class="fa fa-trophy"></i> by <u>some</u> tech that I use _for 
 
 ## Web Stuff
 
+### Stylesheets
+
 <ul class="columns3 nodot">
 	<li><a href="http://960.gs/" target="_blank">960</a></li>
+	<li><a href="http://sass-lang.com/" target="_blank">SASS</a></li>
+	<li><a href="http://foundation.zurb.com/" target="_blank">ZURB Foundation</a> <i class="fa fa-trophy"></i></li>
+	<li><a href="https://tailwindcss.com"  target="_blank">Tailwind CSS</a></li>
+</ul>
+
+### JavaScript
+<ul class="columns3 nodot">
 	<li><a href="http://coffeescript.org/" target="_blank">CoffeeScript</a></li>
 	<li><a href="http://www.dropzonejs.com/" target="_blank">DropzoneJS</a></li>
 	<li><a href="http://www.highcharts.com/" target="_blank">Highcharts</a></li>
 	<li><a href="https://jquery.com/" target="_blank">jQuery</a></li>
 	<li><a href="http://jqueryui.com/" target="_blank">jQueryUI</a></li>
 	<li><a href="http://mediaelementjs.com/" target="_blank">MediaElement</a></li>
-	<li><a href="http://sass-lang.com/" target="_blank">SASS</a></li>
+	<li><a href="https://nodejs.org" target="_blank">Node.js</a></li>
 	<li><a href="https://select2.github.io/" target="_blank">Select2</a></li>
 	<li><a href="http://www.tinymce.com/" target="_blank">TinyMCE</a> <i class="fa fa-trophy"></i></li>
-	<li><a href="http://foundation.zurb.com/" target="_blank">ZURB Foundation</a> <i class="fa fa-trophy"></i></li>
 </ul>
 
-
-I'm dabbling with Angular, Backbone, Ember, Meteor, React, etc. It will be interesting to see which come out on top in this arena.
+In 2015, I'm was dabbling with Angular, Backbone, Ember, Meteor, React, etc. It will be interesting to see which come out on top in this arena. Ten years later, there are even more frameworks now. Plus, in an effort to minimize runtime bugs, two approaches to strongly-typing JavaScript, [Elm](https://elm-lang.org) and [TypeScript](https://www.typescriptlang.org), have emerged. I can't say I enjoy programming any of these variations, but they get the job done.
 
 ## Servers, Proxies, ISPs, and Operating Systems
 
@@ -133,12 +141,11 @@ I'm dabbling with Angular, Backbone, Ember, Meteor, React, etc. It will be inter
 	<li><a href="https://www.phusionpassenger.com/" target="_blank">Phusion Passenger</a> <i class="fa fa-trophy"></i></li>
 </ul>
 
-
 <ul class="columns3 nodot">
 	<li><a href="http://www.ubuntu.com/server" target="_blank">Ubuntu</a></li>
 	<li><a href="http://www.apple.com/osx/" target="_blank">OS X</a></li>
 	<li><a href="http://www.microsoft.com/en-us/windows" target="_blank">Windows</a></li>
-	<li><a href="http://www.amiga.com/" target="_blank">Amiga</a></li>
+	<li><a href="https://www.amigaos.net" target="_blank" title="Only Amiga Makes It Possible">Amiga</a>❤️</li>
 </ul>
 
 
@@ -154,13 +161,14 @@ I'm dabbling with Angular, Backbone, Ember, Meteor, React, etc. It will be inter
 </ul>
 
 
-## Database Experience
+## Databases & Caches
 
 <ul class="columns3 nodot">
-	<li><a href="https://www.mongodb.org/" target="_blank">MongoDB</a></li>
 	<li><a href="http://memcached.org/" target="_blank">Memcached</a></li>
+	<li><a href="https://www.mongodb.org/" target="_blank">MongoDB</a></li>
 	<li><a href="https://www.mysql.com/" target="_blank">MySQL</a></li>
 	<li><a href="http://www.postgresql.org/" target="_blank">PostgreSQL</a> <i class="fa fa-trophy"></i></li>
+	<li><a href="https://www.rabbitmq.com" target="_blank">RabbitMQ</a></li>
 	<li><a href="http://redis.io/" target="_blank">Redis</a></li>
 	<li><a href="http://www.microsoft.com/en-us/server-cloud/products/sql-server/" target="_blank">SQL Server</a></li>
 	<li><a href="https://www.sqlite.org/" target="_blank">SQLite</a></li>
