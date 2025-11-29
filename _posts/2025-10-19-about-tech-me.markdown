@@ -7,8 +7,7 @@ But Rails isn't my only mainstay. I use many Ruby gems and technologies in the s
 
 The "Rails Way" works for me. I love the lingo. SCRUM, DRY, SRP, TDD, KISS, CI, Git, Mocking, Stubbing...one day I'll learn what all those mean. :)
 
-I'm also heavily involved with <a href="http://activeadmin.info/" target="_blank">ActiveAdmin</a>&mdash;the best administrative dashboard <i>EVER!</i>
-I'm available for consulting, training, and integration of ActiveAdmin.
+I'm am heavily involved with <a href="http://activeadmin.info/" target="_blank">ActiveAdmin</a>&mdash;the best administrative dashboard <i>EVER!</i> I'm available for consulting, training, and integration of ActiveAdmin.
 
 ## A Few of My Favorite "Tech" Things
 
@@ -231,6 +230,8 @@ Seriously, you really don't want me to list them all.
   <li><a href="http://www.adobe.com/products/photoshop.html" target="_blank">Adobe Photoshop</a></li>
   <li><a href="http://www.adobe.com/products/illustrator.html" target="_blank">Adobe Illustrator</a></li>
 </ul>
+
+Visit my [repositories](/repos) page to see my active contributions
 
 
 _'nuf said._
