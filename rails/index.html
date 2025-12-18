@@ -1,83 +1,251 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Ruby on Rails — Boss Level</title>
+    <meta name="description"
+        content="Stan Carver II (scarver2) — Ruby on Rails expertise: architecture, upgrades, testing, background jobs, performance, and production delivery. Curated Rails toolbox and proof links." />
+    <meta name="keywords"
+        content="Ruby on Rails, Rails, Ruby developer, Principal Engineer, CTO, ActiveRecord, Sidekiq, Solid Queue, RSpec, Capybara, Postgres, Redis, Sorbet, Docker, CI/CD" />
+    <meta name="theme-color" content="#070A12">
+    <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="/assets/css/site.css" />
+</head>
+
+<body>
+    <a class="skip" href="#main">Skip to content</a>
+
+    <header class="topbar">
+        <div class="brand">
+            <span class="brand__mark" aria-hidden="true">▣</span>
+            <span class="brand__name"><a href="/">scarver2</a></span>
+            <span class="brand__sub">BOSS LEVEL</span>
+        </div>
+
+        <nav class="nav">
+            <a href="/">Home</a>
+            <a href="/toolbox/">Toolbox</a>
+            <a href="/repos/">Repos</a>
+            <a href="/credits/">Credits</a>
+        </nav>
+    </header>
+
+    <main id="main" class="wrap">
+        <section class="panel">
+            <header class="panel__head">
+                <h1 class="glow">RUBY ON RAILS — BOSS LEVEL</h1>
+                <p class="panel__sub">
+                    A dedicated page for recruiters and engineers who want hard signal: how I build Rails systems, what
+                    I’ve used, and where to verify.
+                </p>
+            </header>
+
+            <div class="meta" style="margin-top:12px;">
+                <span class="chip">Architecture</span>
+                <span class="chip">Upgrades &amp; Modernization</span>
+                <span class="chip">Testing</span>
+                <span class="chip">Queues</span>
+                <span class="chip">Delivery</span>
+            </div>
+        </section>
+
+        <section class="panel">
+            <header class="panel__head">
+                <h2>PROOF</h2>
+                <p class="panel__sub">Places where my Rails/Ruby work shows up in public.</p>
+            </header>
+
+            <div class="cards">
+                <article class="card">
+                    <h3>Stack Overflow</h3>
+                    <p>
+                        Ruby/Q&amp;A track record. I’m in the top tier for Ruby based on contributions (see profile).
+                    </p>
+                    <div class="card__links">
+                        <a href="https://stackoverflow.com/users/307308/scarver2" target="_blank" rel="noreferrer">Open
+                            Profile</a>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <h3>GitHub</h3>
+                    <p>
+                        Repos, tooling, experiments, and shipped code in public.
+                    </p>
+                    <div class="card__links">
+                        <a href="https://github.com/scarver2" target="_blank" rel="noreferrer">Open GitHub</a>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <h3>LinkedIn</h3>
+                    <p>
+                        Professional timeline and leadership context.
+                    </p>
+                    <div class="card__links">
+                        <a href="https://www.linkedin.com/in/scarver2/" target="_blank" rel="noreferrer">Open
+                            LinkedIn</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="panel">
+            <header class="panel__head">
+                <h2>WHAT I DO IN RAILS</h2>
+                <p class="panel__sub">The work recruiters usually mean when they say “prove it.”</p>
+            </header>
+
+            <div class="twoCol">
+                <div>
+                    <h3>Architecture &amp; Maintainability</h3>
+                    <ul class="bullets">
+                        <li>Rails monoliths with clean boundaries (modular by default)</li>
+                        <li>Service extraction only when it pays (cost/benefit, not fashion)</li>
+                        <li>Conventions, guardrails, and teachable systems</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3>Upgrades &amp; Delivery</h3>
+                    <ul class="bullets">
+                        <li>Incremental upgrades with risk control</li>
+                        <li>CI/CD that teams trust</li>
+                        <li>Health checks, rollback readiness, calm deploys</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="twoCol" style="margin-top:12px;">
+                <div>
+                    <h3>Testing &amp; Quality</h3>
+                    <ul class="bullets">
+                        <li>RSpec and/or Minitest depending on the codebase</li>
+                        <li>Capybara system tests when it protects revenue</li>
+                        <li>Pragmatic linting + conventions (guardrails over bureaucracy)</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3>Background Work &amp; Scale</h3>
+                    <ul class="bullets">
+                        <li>Jobs/queues, retries, idempotency, and failure modes</li>
+                        <li>Postgres + Redis patterns</li>
+                        <li>Observability mindset: logs, metrics, tracing</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="panel">
+            <header class="panel__head">
+                <h2>CURATED RAILS TOOLBOX</h2>
+                <p class="panel__sub">Categorized and searchable. This page exists partly for SEO clarity.</p>
+            </header>
+
+            <div class="cartridgeGrid">
+                <article class="cartridge">
+                    <div class="cartridge__top">
+                        <div class="cartridge__badge">RAILS CORE</div>
+                        <h3 class="cartridge__title">Rails Foundations</h3>
+                        <div class="cartridge__meta">ActiveRecord • Migrations • Performance</div>
+                    </div>
+                    <ul class="bullets">
+                        <li>ActiveRecord, migrations, schema discipline</li>
+                        <li>Query tuning + indexes, production-safe changes</li>
+                        <li>Hotwire/Turbo when it reduces complexity</li>
+                    </ul>
+                </article>
+
+                <article class="cartridge">
+                    <div class="cartridge__top">
+                        <div class="cartridge__badge">TESTING</div>
+                        <h3 class="cartridge__title">Test &amp; Confidence</h3>
+                        <div class="cartridge__meta">RSpec • Minitest • Capybara</div>
+                    </div>
+                    <ul class="bullets">
+                        <li>RSpec and/or Minitest</li>
+                        <li>Capybara system tests</li>
+                        <li>Pragmatic coverage aligned to risk</li>
+                    </ul>
+                </article>
+
+                <article class="cartridge">
+                    <div class="cartridge__top">
+                        <div class="cartridge__badge alt">JOBS</div>
+                        <h3 class="cartridge__title">Background Jobs</h3>
+                        <div class="cartridge__meta">Sidekiq • Solid Queue • Redis</div>
+                    </div>
+                    <ul class="bullets">
+                        <li>Sidekiq / Redis patterns</li>
+                        <li>Rails 8 Solid Queue patterns</li>
+                        <li>Retries, idempotency, and “don’t duplicate money” rules</li>
+                    </ul>
+                </article>
+
+                <article class="cartridge">
+                    <div class="cartridge__top">
+                        <div class="cartridge__badge alt">TYPING</div>
+                        <h3 class="cartridge__title">Typed Ruby</h3>
+                        <div class="cartridge__meta">Sorbet • Interfaces • Contracts</div>
+                    </div>
+                    <ul class="bullets">
+                        <li>Sorbet-style typing where it improves clarity</li>
+                        <li>Contracts and boundaries for long-lived systems</li>
+                        <li>Make the right thing easy</li>
+                    </ul>
+                </article>
+
+                <article class="cartridge">
+                    <div class="cartridge__top">
+                        <div class="cartridge__badge">OPS</div>
+                        <h3 class="cartridge__title">Delivery &amp; Ops</h3>
+                        <div class="cartridge__meta">Docker • Reverse Proxy • CI</div>
+                    </div>
+                    <ul class="bullets">
+                        <li>Dockerized Rails deployments</li>
+                        <li>NGINX/Traefik reverse proxy patterns</li>
+                        <li>GitHub Actions CI pipelines</li>
+                    </ul>
+                </article>
+
+                <article class="cartridge">
+                    <div class="cartridge__top">
+                        <div class="cartridge__badge">DATA</div>
+                        <h3 class="cartridge__title">Data Layer</h3>
+                        <div class="cartridge__meta">Postgres • Redis • Reliability</div>
+                    </div>
+                    <ul class="bullets">
+                        <li>Postgres-first design</li>
+                        <li>Redis where it fits (queues, caching, rate control)</li>
+                        <li>Constraints, migrations, and safe changes</li>
+                    </ul>
+                </article>
+            </div>
+
+            <div class="ctaRow" style="margin-top:14px;">
+                <a class="btn primary" href="/credits/#contact">START CONVERSATION</a>
+                <a class="btn" href="/repos/">VIEW PROJECTS</a>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer__left">
+                &copy;<span id="year"></span>
+                <a href="/">Stan Carver II</a>
+                <span class="nowPlaying">NOW PLAYING: Ruby on Rails • Calm Delivery • 2025</span>
+            </div>
+            <div class="footer__right">
+                <a href="/toolbox/">Toolbox</a>
+                <a href="/repos/">Repos</a>
+                <a href="/credits/">Credits</a>
+            </div>
+        </footer>
+    </main>
+
+    <script src="/assets/js/site.js"></script>
+</body>
+
+</html>
