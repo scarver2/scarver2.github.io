@@ -1,17 +1,28 @@
 <!doctype html>
 <html lang="en">
-  {% include head.html %}
-  <body>
-    <div class="cabinet">
-      {% include nav.html %}
-      <main class="screen">
-        {{ content }}
-      </main>
-      {% include footer.html %}
-    </div>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
 
-    <script defer src="/assets/sfx/manifest.js"></script>
-    <script defer src="/assets/sfx/player.js"></script>
-    <script defer src="/assets/easter-egg.js"></script>
-  </body>
+  <title>{{ site.data.home.meta.title }}</title>
+  <meta name="description" content="{{ site.data.home.meta.description | escape }}" />
+
+  <meta name="theme-color" content="{{ site.data.home.meta.theme_color }}">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/css/site.css" />
+</head>
+
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  {% include header.html %}
+
+  <main id="main" class="wrap">
+    {{ content }}
+    {% include footer.html %}
+  </main>
+
+  <script src="/assets/js/site.js"></script>
+</body>
 </html>
+

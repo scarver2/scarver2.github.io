@@ -1,0 +1,27 @@
+# Homepage “cartridges” (data-driven cards/sections)
+# Keep this file human-friendly so updating the site feels easy.
+
+cartridges:
+  - key: frankie
+    title: Frankie
+    description: >
+      A Ruby creation focused on productivity and developer happiness.
+    links:
+      - label: GitHub Repo
+        url: https://github.com/scarver2/frankie
+      - label: Wiki
+        url: https://github.com/scarver2/frankie/wiki
+    badge: "Ruby"
+    status: "Active"
+    icon: "ruby"
+
+  - key: blue-eyes
+    title: BlueEyes
+    description: >
+      App scaffolding & tooling with a strong opinion about maintainable Ruby.
+    links:
+      - label: GitHub Repo
+        url: https://github.com/scarver2/blue-eyes
+    badge: "Ruby"
+    status: "Active"
+    icon: "ruby"
