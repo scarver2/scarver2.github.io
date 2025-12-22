@@ -1,7 +1,14 @@
+<!-- TODO: Confirm data and rendering
 <nav class="nav">
   <a href="#toolbox">TOOLBOX</a>
   <a href="#stash">STASH</a>
   <a href="#credits">CREDITS</a>
   <a href="#power-up">POWER-UP</a>
   <a href="#boss-level">BOSS LEVEL</a>
+</nav>
+-->
+<nav class="nav">
+  {% for item in site.data.site.nav %}
+    <a href="{{ item.href }}" title="{{ item.title | escape }}">{{ item.label }}</a>
+  {% endfor %}
 </nav>

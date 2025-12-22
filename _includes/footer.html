@@ -1,3 +1,19 @@
+<!-- TODO: Option A
+<footer class="footer">
+  <div class="footer__left">
+    &copy;<span id="year"></span>
+    <a href="/">Stan Carver II</a>
+    <span class="nowPlaying">{{ site.data.site.footer.now_playing }}</span>
+  </div>
+
+  <div class="footer__right">
+    {% for item in site.data.site.nav %}
+      <a href="{{ item.href }}" title="{{ item.title | escape }}">{{ item.label }}</a>
+    {% endfor %}
+  </div>
+</footer>
+-->
+
 <footer class="footer">
   <div class="fineprint">© {{ "now" | date: "%Y" }} Stan Carver II • Built with Jekyll</div>
 </footer>
