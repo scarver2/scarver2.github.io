@@ -1,0 +1,84 @@
+---
+layout: default
+---
+
+{% assign hero = site.data.home.hero %}
+
+<section class="hero panel">
+  <div class="hero__grid">
+    <div class="hero__left">
+      <div class="tag">{{ hero.tag }}</div>
+      <h1 class="glow">{{ hero.headline }}</h1>
+      <p class="lede">{{ hero.lede_html }}</p>
+
+      <div class="ctaRow">
+        {% for cta in hero.ctas %}
+          <a class="{{ cta.class }}" href="{{ cta.href }}">{{ cta.label }}</a>
+        {% endfor %}
+      </div>
+
+      <div class="meta">
+        {% for chip in hero.chips %}
+          {% if chip.html %}
+            <span class="chip">{{ chip.html }}</span>
+          {% else %}
+            <span class="chip">{{ chip }}</span>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="hero__right">
+      <div class="scoreboard">
+        <div class="scoreboard__title">{{ hero.high_scores.title }}</div>
+        <ul class="scoreboard__list">
+          {% for item in hero.high_scores.items %}
+            <li><span class="k">{{ item.key }}</span><span class="v">{{ item.value }}</span></li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% for section in site.data.home.sections %}
+  <section id="{{ section.id }}" class="panel">
+    <header class="panel__head">
+      <h2>{{ section.heading }}</h2>
+      <p class="panel__sub">{{ section.sub }}</p>
+    </header>
+
+    {% if section.cards %}
+      <div class="cards">
+        {% for card in section.cards %}
+          <article class="card">
+            <h3>{{ card.title }}</h3>
+            <p>{{ card.description }}</p>
+            {% if card.links %}
+              <div class="card__links">
+                {% for link in card.links %}
+                  <a href="{{ link.url }}" target="_blank" rel="noreferrer">{{ link.label }}</a>
+                {% endfor %}
+              </div>
+            {% endif %}
+          </article>
+        {% endfor %}
+      </div>
+    {% endif %}
+
+    {% if section.two_col %}
+      <div class="twoCol">
+        {% for col in section.two_col %}
+          <div>
+            <h3>{{ col.title }}</h3>
+            <ul class="bullets">
+              {% for bullet in col.bullets %}
+                <li>{{ bullet }}</li>
+              {% endfor %}
+            </ul>
+          </div>
+        {% endfor %}
+      </div>
+    {% endif %}
+  </section>
+{% endfor %}
