@@ -1,0 +1,119 @@
+meta:
+  description: "CTO / Principal Engineer specializing in Ruby on Rails, pragmatic architecture, and reliable delivery. 1980s arcade vibes, modern engineering outcomes."
+  theme_color: "#070A12"
+  title: "Stan Carver II — CTO / Principal Engineer (Ruby on Rails)"
+
+hero:
+  tag: "PLAYER 1"
+  headline: "Stan Carver II"
+  lede_html: >
+    CTO / Principal Engineer specializing in <strong>Ruby on Rails</strong>,
+    pragmatic architecture, and reliable delivery.
+    I turn ambiguous ideas into realities.
+  ctas:
+    - label: "INSERT COIN (CONTACT)"
+      href: "/credits/#contact"
+      class: "btn primary"
+    - label: "VIEW ARCADE CABINET"
+      href: "/repos/"
+      class: "btn"
+  chips:
+    - "Ideas to IPO and Beyond"
+    - "CTO"
+    - "Leader • Results • Compelling"
+    - "Ruby on Rails Principle Engineer"
+    - html: >
+        Remote •
+        <a href="https://www.annatexas.gov/1074/Stan-Carver-II" title="CTO by day, Councilman by night"
+          target="_blank" rel="noreferrer">Anna, TX</a>
+        • Willing to Travel
+  high_scores:
+    title: "HIGH SCORES"
+    items:
+      - key: "LEADERSHIP"
+        value: "Aligning executives & engineers expectations"
+      - key: "DELIVERY"
+        value: "Predictable CI/CD pipelines with drama–free deployments"
+      - key: "SCALE"
+        value: "Performant • Highly Available • Scalable • Durable"
+      - key: "LEGACY RESCUE"
+        value: "Enterprise-scale Rails stack modernizations"
+      - key: "CRAFT"
+        value: "Maintainable, teachable systems"
+
+sections:
+  - id: "featured"
+    heading: "FEATURED TITLES"
+    sub: "Selected work that reflects how I think and build."
+    cards:
+      - title: "BlueEyes"
+        description: "Developer tools for fast scaffolding of Sinatra applications and microservices. Upgradeable to Ruby on Rails."
+        links:
+          - label: "Repo"
+            url: "https://github.com/scarver2/blue-eyes"
+          - label: "Wiki"
+            url: "https://github.com/scarver2/blue-eyes/wiki"
+
+      - title: "Frankie"
+        description: "Opinionated Ruby tooling that improves consistency, velocity, and developer experience."
+        links:
+          - label: "Repo"
+            url: "https://github.com/scarver2/frankie"
+          - label: "Wiki"
+            url: "https://github.com/scarver2/frankie/wiki"
+
+      - title: "Howdy World"
+        description: "Multi-language “hello world” infra patterns with a clean reverse proxy setup."
+        links:
+          - label: "Repo"
+            url: "https://github.com/scarver2/howdy-world"
+          - label: "Wiki"
+            url: "https://github.com/scarver2/howdy-world/wiki"
+
+  - id: "open-source"
+    heading: "OPEN SOURCE"
+    sub: >
+      I contribute to the Ruby ecosystem with a focus on developer tooling,
+      maintainability, and long-term project health.
+    cards:
+      - title: "Guard::Bundler"
+        description: >
+          Opened an issue and delivered a same-day pull request adding Bundler 4 compatibility,
+          improving lockfile detection, and updating documentation.
+        links:
+          - label: "Repo"
+            url: "https://github.com/guard/guard-bundler"
+          - label: "Pull Request"
+            url: "https://github.com/guard/guard-bundler/pull/47"
+
+      - title: "Letter Opener"
+        description: "Contributed improvements to Ryan Bates' widely used Rails development tool for local email inspection."
+        links:
+          - label: "Repo"
+            url: "https://github.com/ryanb/letter_opener"
+
+      - title: "ActiveAdmin"
+        description: >
+          Contributor to the popular Rails' admin framework. Also began an in-depth ActiveAdmin training series for PluralSight
+          (paused due to professional commitments).
+        links:
+          - label: "Repo"
+            url: "https://github.com/activeadmin/activeadmin"
+
+  - id: "press-start"
+    heading: "PRESS START"
+    sub: "What working with me typically looks like."
+    two_col:
+      - title: "What I Do"
+        bullets:
+          - "Turn ambiguous objectives into shippable outcomes"
+          - "Design sane boundaries for monolith modules & microservices"
+          - "Build delivery pipelines teams actually enjoy using"
+          - "Modernize Rails systems without breaking production"
+      - title: "How I Work"
+        bullets:
+          - "Business outcomes first, engineering excellence always"
+          - "“Good enough to ship” is a feature, not a compromise"
+          - "Make systems testable & scalable"
+          - "No surprises, direct communication"
+

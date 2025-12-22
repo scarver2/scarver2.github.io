@@ -1,0 +1,26 @@
+brand:
+  mark: "▣"
+  name: "scarver2"
+  sub: "ARCADE SYSTEMS"
+  href: "/"
+
+nav:
+  - label: "Toolbox"
+    href: "/toolbox/"
+    title: "View my utility belt"
+  - label: "Stash"
+    href: "/repos/"
+    title: "View my GitHub repos"
+  - label: "Credits"
+    href: "/credits/"
+    title: "View my credits"
+  - label: "Power-Up"
+    href: "/rails/"
+    title: "View my Rails projects"
+  - label: "Boss Level"
+    href: "/boss-level/"
+    title: "View my CTO mindset"
+
+footer:
+  now_playing: "NOW PLAYING: Ruby on Rails • Calm Delivery • 2025"
+
