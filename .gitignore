@@ -1,10 +1,22 @@
-# ignore Jekyll artifacts
-# temporarily set to _jekyll
+# ignore Jekyll builder artifacts
 _site/
-.bundle/
 .jekyll-cache/
-.sass-cache/
-.vendor/
-assets/css/tailwind.output.css
+
+# ignore Node builder artifacts
 node_modules/
+
+# ignore Ruby artifacts
+.bundle/
+.vendor/
+
+# ignore Sass artifacts
+.sass-cache/
+
+# ignore TailwindCSS compilation
+assets/css/tailwind.output.css
+
+# ignore OS files
+.DS_Store
+
+# ignore misc
 tmp/
