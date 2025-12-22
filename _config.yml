@@ -7,13 +7,13 @@ markdown: kramdown
 permalink: pretty
 
 exclude:
-  - README.md
-  - tools
+  - bin
+  - node_modules
   - tmp
   - vendor
   - Gemfile
   - Gemfile.lock
-  - node_modules
+  - README.md
 
 collections:
   posts:
