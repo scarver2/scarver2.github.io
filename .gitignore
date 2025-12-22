@@ -3,5 +3,8 @@
 _site/
 .bundle/
 .jekyll-cache/
+.sass-cache/
 .vendor/
+assets/css/tailwind.output.css
+node_modules/
 tmp/
