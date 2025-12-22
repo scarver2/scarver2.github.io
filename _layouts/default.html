@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+  {% include head.html %}
+  <body>
+    <div class="cabinet">
+      {% include nav.html %}
+      <main class="screen">
+        {{ content }}
+      </main>
+      {% include footer.html %}
+    </div>
+
+    <script defer src="/assets/sfx/manifest.js"></script>
+    <script defer src="/assets/sfx/player.js"></script>
+    <script defer src="/assets/easter-egg.js"></script>
+  </body>
+</html>

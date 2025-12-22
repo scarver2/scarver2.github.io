@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "tw:build": "tailwindcss -i ./assets/css/tailwind.input.css -o ./assets/css/tailwind.output.css --minify",
+    "tw:watch": "tailwindcss -i ./assets/css/tailwind.input.css -o ./assets/css/tailwind.output.css --watch"
+  }
+}
+

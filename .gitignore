@@ -1,0 +1,7 @@
+# ignore Jekyll artifacts
+# temporarily set to _jekyll
+_site/
+.bundle/
+.jekyll-cache/
+.vendor/
+tmp/

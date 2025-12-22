@@ -1,0 +1,9 @@
+AllCops:
+  NewCops: enable
+  TargetRubyVersion: 3.4
+  Exclude:
+    - "vendor/**/*"
+    - "_site/**/*"
+
+Layout/LineLength:
+  Max: 120

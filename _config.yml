@@ -1,0 +1,20 @@
+title: "Stan Carver II"
+description: "CTO & Principal Engineer (Ruby on Rails) — 80's arcade themed personal site."
+url: "https://scarver2.github.io"
+baseurl: "" # empty for user/organization pages
+
+markdown: kramdown
+permalink: pretty
+
+exclude:
+  - README.md
+  - tools
+  - tmp
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+
+collections:
+  posts:
+    output: true
