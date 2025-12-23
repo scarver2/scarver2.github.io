@@ -23,8 +23,8 @@
   /* =========================
      Audio sources
      ========================= */
-  const COIN_SRC = "/assets/audio/coin.mp3";
-  const POWERUP_SRC = "/assets/audio/power-up.mp3";
+  const COIN_SRC = "/assets/sfx/coin.mp3";
+  const POWERUP_SRC = "/assets/sfx/power-up.mp3";
 
   /* =========================
      Audio pools (overlap-safe)
