@@ -12,15 +12,9 @@ group :development do
 end
 
 group :development, :test do
-  gem 'capybara', require: false
   gem 'guard', require: false
   gem 'guard-bundler', require: false
   gem 'guard-jekyll', require: false
   gem 'guard-rubocop', require: false
-  gem 'rack-test', require: false
-  gem 'rspec', require: false
   gem 'rubocop', require: false
-  gem 'rubocop-performance', require: false
-  gem 'rubocop-rake', require: false
-  gem 'rubocop-rspec', require: false
 end
