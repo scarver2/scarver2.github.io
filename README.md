@@ -28,6 +28,11 @@ It triggers:
 ## Developer Notes
 
 ### Local Development
+
+Disable Scss formatting in Antigravity/VSCode to prevent breaking compilation issues.
+   scss.format.enable = false
+
+
 ```bash
 bundle install
 foreman s -f Procfile.dev
