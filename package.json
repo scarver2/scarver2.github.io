@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "tw:build": "tailwindcss -i ./assets/css/tailwind.input.css -o ./assets/css/tailwind.output.css --minify",
-    "tw:watch": "tailwindcss -i ./assets/css/tailwind.input.css -o ./assets/css/tailwind.output.css --watch"
+    "tw:build": "tailwindcss -i ./assets/css/tailwind.css -o ./assets/css/tailwind-optimized.css --minify",
+    "tw:watch": "tailwindcss -i ./assets/css/tailwind.css -o ./assets/css/tailwind-optimized.css --watch"
   },
   "devDependencies": {
     "@tailwindcss/cli": "^4.1.18",

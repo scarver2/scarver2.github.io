@@ -13,7 +13,7 @@ node_modules/
 .sass-cache/
 
 # ignore TailwindCSS compilation
-assets/css/tailwind.output.css
+assets/css/tailwind-optimized.css
 
 # ignore OS files
 .DS_Store
