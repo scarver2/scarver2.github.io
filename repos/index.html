@@ -1,0 +1,36 @@
+---
+layout: default
+title: "Arcade Cabinet"
+description: "Selected open-source repositories and experiments by Stan Carver II."
+permalink: /repos/
+brand_sub: "ARCADE CABINET"
+menu: main
+---
+
+{% assign page_data = site.data.repos %}
+
+<section class="panel">
+  <header class="panel__head">
+    <h1 class="glow">{{ page_data.title }}</h1>
+    {% if page_data.subtitle %}
+    <p class="panel__sub">{{ page_data.subtitle }}</p>
+    {% endif %}
+  </header>
+
+  {% for section in page_data.sections %}
+  <section id="{{ section.id }}" class="panel">
+    <header class="panel__head">
+      <h2>{{ section.heading }}</h2>
+      {% if section.sub %}
+      <p class="panel__sub">{{ section.sub }}</p>
+      {% endif %}
+    </header>
+
+    <div class="cards">
+      {% for card in section.cards %}
+      {% include cartridge.html card=card %}
+      {% endfor %}
+    </div>
+  </section>
+  {% endfor %}
+</section>

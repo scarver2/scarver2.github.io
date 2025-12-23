@@ -1,20 +1,36 @@
 <section id="{{ include.id }}" class="cartridge">
   <h2>{{ include.title }}</h2>
   {% if include.lede %}
-    <p class="lede">{{ include.lede }}</p>
+  <p class="lede">{{ include.lede }}</p>
   {% endif %}
 
   {% if include.items %}
-    <ul class="bullets">
-      {% for item in include.items %}
-        <li>
-          {% if item.name %}<strong>{{ item.name }}</strong>{% endif %}
-          {% if item.text %} — {{ item.text }}{% endif %}
-          {% if item.link %}
-            <a href="{{ item.link }}" target="_blank" rel="noopener noreferrer">{{ item.link_label | default: "Link" }}</a>
-          {% endif %}
-        </li>
-      {% endfor %}
-    </ul>
+  <ul class="bullets">
+    {% for item in include.items %}
+    <li>
+      {% if item.name %}<strong>{{ item.name }}</strong>{% endif %}
+      {% if item.text %} — {{ item.text }}{% endif %}
+      {% if item.link %}
+      <a href="{{ item.link }}" target="_blank" rel="noopener noreferrer">{{ item.link_label | default: "Link" }}</a>
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ul>
   {% endif %}
 </section>
+
+<article class="card">
+  <h3>{{ include.card.title }}</h3>
+
+  {% if include.card.description %}
+  <p>{{ include.card.description }}</p>
+  {% endif %}
+
+  {% if include.card.links %}
+  <div class="card__links">
+    {% for link in include.card.links %}
+    <a href="{{ link.url }}" target="_blank" rel="noreferrer">{{ link.label }}</a>
+    {% endfor %}
+  </div>
+  {% endif %}
+</article>

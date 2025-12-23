@@ -4,6 +4,22 @@ brand:
   sub: "ARCADE SYSTEMS"
   href: "/"
 
+menus:
+  main:
+    - { label: "Home", href: "/" }
+    - { label: "Toolbox", href: "/toolbox/" }
+    - { label: "Repos", href: "/repos/" }
+    - { label: "Rails (Power-Up)", href: "/rails/" }
+    - { label: "Credits", href: "/credits/" }
+    - { label: "Boss Level (CTO)", href: "/boss-level/" }
+
+  no_boss:
+    - { label: "Home", href: "/" }
+    - { label: "Toolbox", href: "/toolbox/" }
+    - { label: "Repos", href: "/repos/" }
+    - { label: "Rails (Power-Up)", href: "/rails/" }
+    - { label: "Credits", href: "/credits/" }
+
 nav:
   - label: "Toolbox"
     href: "/toolbox/"
