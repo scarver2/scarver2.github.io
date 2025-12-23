@@ -1,3 +1,4 @@
 css: npm run tw:watch
+jekyll: bundle exec jekyll build
 web: bundle exec jekyll serve --livereload --open-url
 guard: bundle exec guard
