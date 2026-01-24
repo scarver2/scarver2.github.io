@@ -1,0 +1,24 @@
+<section id="open-source" class="panel">
+  <header class="panel__head">
+    <h2>OPEN SOURCE</h2>
+    <p class="panel__sub">
+      I contribute to the Ruby ecosystem with a focus on developer tooling,
+      maintainability, and long-term project health.
+    </p>
+  </header>
+
+  <div class="cards">
+    {% for project in site.data.opensource %}
+    <article class="card">
+      <h3>{{ project.name }}</h3>
+      <p>{{ project.description }}</p>
+      <div class="card__links">
+        <a href="{{ project.repo }}" target="_blank" rel="noopener noreferrer">Repo</a>
+        {% if project.pr %}
+        <a href="{{ project.pr }}" target="_blank" rel="noopener noreferrer">Pull Request</a>
+        {% endif %}
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</section>

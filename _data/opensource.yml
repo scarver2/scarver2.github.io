@@ -1,0 +1,12 @@
+- name: Guard::Bundler
+  description: Opened an issue and delivered a same-day pull request adding Bundler 4 compatibility, improving lockfile detection, and updating documentation.
+  repo: https://github.com/guard/guard-bundler
+  pr: https://github.com/guard/guard-bundler/pull/47
+
+- name: Letter Opener
+  description: Contributed improvements to Ryan Bates' widely used Rails development tool for local email inspection.
+  repo: https://github.com/ryanb/letter_opener
+
+- name: ActiveAdmin
+  description: Contributor to the popular Rails' admin framework. Also began an in-depth ActiveAdmin training series for PluralSight (paused due to professional commitments).
+  repo: https://github.com/activeadmin/activeadmin
