@@ -2,7 +2,7 @@
 layout: post
 title: "Publishing My First RubyGem: Blue Eyes"
 description: "Acquiring, modernizing, and releasing the Blue Eyes scaffolding tool for Sinatra applications"
-date: 2025-01-14
+date: 2025-12-08
 tags: [ruby, rubygems, sinatra, open-source, blue-eyes]
 ---
 
