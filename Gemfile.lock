@@ -307,6 +307,9 @@ PLATFORMS
   x86_64-linux-musl
 
 DEPENDENCIES
+  base64
+  bigdecimal
+  csv
   faraday-retry
   github-pages
   jekyll-feed
