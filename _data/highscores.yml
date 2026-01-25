@@ -1,0 +1,81 @@
+# Leaderboard-style achievements
+scores:
+  - rank: 1
+    achievement: "Mayor Pro Tem"
+    location: "Anna, Texas"
+    score: "UNLOCKED"
+    icon: "🏛️"
+    
+  - rank: 2
+    achievement: "Volunteer of the Year"
+    location: "Anna, Texas"
+    score: "ACHIEVED"
+    icon: "🌟"
+    
+  - rank: 3
+    achievement: "Zero-Downtime Deployments"
+    location: "Production Uptime"
+    score: "99.99%"
+    icon: "🚀"
+    
+  - rank: 4
+    achievement: "Teams Scaled & Shipped"
+    location: "Engineering Leadership"
+    score: "12+"
+    icon: "👥"
+    
+  - rank: 5
+    achievement: "Legacy Rails Rescued"
+    location: "Modernization Projects"
+    score: "8"
+    icon: "🛟"
+    
+  - rank: 6
+    achievement: "Open Source Contributions"
+    location: "Ruby Ecosystem"
+    score: "50+"
+    icon: "💎"
+    
+  - rank: 7
+    achievement: "First Published RubyGem"
+    location: "Blue Eyes v1.3.3"
+    score: "SHIPPED"
+    icon: "📦"
+    
+  - rank: 8
+    achievement: "Years Shipping Rails"
+    location: "Ruby on Rails Expertise"
+    score: "10+"
+    icon: "⚡"
+    
+  - rank: 9
+    achievement: "Production Incidents (2024)"
+    location: "Operational Excellence"
+    score: "0"
+    icon: "🛡️"
+    
+  - rank: 10
+    achievement: "Coffee Consumed"
+    location: "Developer Fuel"
+    score: "9999"
+    icon: "☕"
+
+# Fun stats
+stats:
+  - label: "DEPLOYMENTS SHIPPED"
+    value: "1,000+"
+    
+  - label: "BUGS SQUASHED"
+    value: "5,000+"
+    
+  - label: "CODE REVIEWS"
+    value: "2,500+"
+    
+  - label: "MENTORSHIPS UNLOCKED"
+    value: "25+"
+    
+  - label: "COUNCIL MEETINGS"
+    value: "100+"
+    
+  - label: "GAME OVERS"
+    value: "0"

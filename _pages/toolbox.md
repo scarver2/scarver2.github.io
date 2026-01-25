@@ -134,8 +134,8 @@ sitemap:
   </div>
 
   <div class="ctaRow" style="margin-top:14px;">
-    <a class="btn primary" href="/repos/">VIEW PROJECTS</a>
-    <a class="btn" href="/credits/">CONTACT</a>
+    <a class="btn primary coin-link" href="/vault/">VIEW PROJECTS</a>
+    <a class="btn coin-link" href="/credits/">CONTACT</a>
   </div>
 </section>
 

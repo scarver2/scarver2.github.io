@@ -39,10 +39,10 @@ sitemap:
       <p class="cartridge__desc">
         Ruby-first scaffolding + conventions to ship faster without chaos.
       </p>
-      <div class="cartridge__links">
-        <a href="https://github.com/scarver2/frankie" target="_blank" rel="noreferrer">Repo</a>
-        <a href="https://github.com/scarver2/frankie/wiki" target="_blank" rel="noreferrer">Wiki</a>
-      </div>
+<div class="cartridge__links">
+  <a class="powerup-link repo" href="https://github.com/scarver2/frankie" target="_blank" rel="noreferrer">Repo</a>
+  <a class="powerup-link wiki" href="https://github.com/scarver2/frankie/wiki" target="_blank" rel="noreferrer">Wiki</a>
+</div>
     </article>
 
     <article class="cartridge">
@@ -55,8 +55,8 @@ sitemap:
         Developer tooling for predictable scaffolds and maintainable structure.
       </p>
       <div class="cartridge__links">
-        <a href="https://github.com/scarver2/blue-eyes" target="_blank" rel="noreferrer">Repo</a>
-        <a href="https://rubygems.org/gems/blue-eyes" target="_blank" rel="noreferrer">RubyGem</a>
+        <a class="powerup-link repo" href="https://github.com/scarver2/blue-eyes" target="_blank" rel="noreferrer">Repo</a>
+        <a class="powerup-link gem" href="https://rubygems.org/gems/blue-eyes" target="_blank" rel="noreferrer">RubyGem</a>
       </div>
     </article>
 
@@ -70,8 +70,8 @@ sitemap:
         Multi-language "hello world" infra patterns with a clean reverse proxy setup.
       </p>
       <div class="cartridge__links">
-        <a href="https://github.com/scarver2/howdy-world" target="_blank" rel="noreferrer">Repo</a>
-        <a href="https://github.com/scarver2/howdy-world/wiki" target="_blank" rel="noreferrer">Wiki</a>
+        <a class="powerup-link repo" href="https://github.com/scarver2/howdy-world" target="_blank" rel="noreferrer">Repo</a>
+        <a class="powerup-link wiki" href="https://github.com/scarver2/howdy-world/wiki" target="_blank" rel="noreferrer">Wiki</a>
       </div>
     </article>
   </div>
@@ -94,8 +94,8 @@ sitemap:
         Opened issue + delivered same-day PR for Bundler 4 compatibility and improved lockfile detection.
       </p>
       <div class="cartridge__links">
-        <a href="https://github.com/guard/guard-bundler" target="_blank" rel="noopener noreferrer">Repo</a>
-        <a href="https://github.com/guard/guard-bundler/pull/47" target="_blank" rel="noopener noreferrer">Pull Request</a>
+        <a class="powerup-link repo" href="https://github.com/guard/guard-bundler" target="_blank" rel="noopener noreferrer">Repo</a>
+        <a class="powerup-link pr" href="https://github.com/guard/guard-bundler/pull/47" target="_blank" rel="noopener noreferrer">Pull Request</a>
       </div>
     </article>
 
@@ -109,7 +109,7 @@ sitemap:
         Improvements to Ryan Bates' widely used Rails dev tool for local email inspection.
       </p>
       <div class="cartridge__links">
-        <a href="https://github.com/ryanb/letter_opener" target="_blank" rel="noopener noreferrer">Repo</a>
+        <a class="powerup-link repo" href="https://github.com/ryanb/letter_opener" target="_blank" rel="noopener noreferrer">Repo</a>
       </div>
     </article>
 
@@ -123,7 +123,7 @@ sitemap:
         Contributor to popular Rails admin framework. Also began an in-depth ActiveAdmin training series for PluralSight.
       </p>
       <div class="cartridge__links">
-        <a href="https://github.com/activeadmin/activeadmin" target="_blank" rel="noopener noreferrer">Repo</a>
+        <a class="powerup-link repo" href="https://github.com/activeadmin/activeadmin" target="_blank" rel="noopener noreferrer">Repo</a>
       </div>
     </article>
   </div>
@@ -146,7 +146,7 @@ sitemap:
         The full library: repos, experiments, and contributions.
       </p>
       <div class="cartridge__links">
-        <a href="https://github.com/scarver2" target="_blank" rel="noreferrer">Open GitHub</a>
+        <a class="powerup-link external" href="https://github.com/scarver2" target="_blank" rel="noreferrer">Open GitHub</a>
       </div>
     </article>
 
@@ -160,7 +160,7 @@ sitemap:
         Public problem-solving and practical engineering answers.
       </p>
       <div class="cartridge__links">
-        <a href="https://stackoverflow.com/users/307308/scarver2" target="_blank" rel="noreferrer">Profile</a>
+        <a class="powerup-link external" href="https://stackoverflow.com/users/307308/scarver2" target="_blank" rel="noreferrer">Profile</a>
       </div>
     </article>
 
@@ -174,7 +174,7 @@ sitemap:
         A snapshot of long-term dev activity and community involvement.
       </p>
       <div class="cartridge__links">
-        <a href="https://coderwall.com/scarver2" target="_blank" rel="noreferrer">Profile</a>
+        <a class="powerup-link external" href="https://coderwall.com/scarver2" target="_blank" rel="noreferrer">Profile</a>
       </div>
     </article>
   </div>

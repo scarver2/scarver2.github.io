@@ -171,3 +171,49 @@
     },
   };
 })();
+
+/* =========================
+   Credits Scroll Controls
+   ========================= */
+(() => {
+  const scroll = document.getElementById('creditsScroll');
+  const pauseBtn = document.getElementById('pauseBtn');
+  const resetBtn = document.getElementById('resetBtn');
+  const countdown = document.getElementById('countdown');
+
+  if (!scroll || !pauseBtn || !resetBtn) return;
+
+  let isPaused = false;
+  let countdownValue = 10;
+  let countdownInterval;
+
+  // Pause/Resume toggle
+  pauseBtn.addEventListener('click', () => {
+    isPaused = !isPaused;
+    scroll.classList.toggle('paused');
+    pauseBtn.textContent = isPaused ? '▶ PLAY' : '⏸ PAUSE';
+  });
+
+  // Reset scroll
+  resetBtn.addEventListener('click', () => {
+    scroll.style.animation = 'none';
+    setTimeout(() => {
+      scroll.style.animation = '';
+    }, 10);
+    countdownValue = 10;
+    if (countdown) countdown.textContent = countdownValue;
+  });
+
+  // Countdown timer
+  if (countdown) {
+    countdownInterval = setInterval(() => {
+      if (!isPaused && countdownValue > 0) {
+        countdownValue--;
+        countdown.textContent = countdownValue;
+      }
+      if (countdownValue === 0) {
+        clearInterval(countdownInterval);
+      }
+    }, 1000);
+  }
+})();
