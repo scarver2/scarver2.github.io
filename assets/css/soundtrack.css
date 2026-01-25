@@ -1,11 +1,35 @@
+/* soundtrack.css
+   ============================================
+   MUSIC PLAYER (Top-left, below nav)
+   - Uses CSS vars so you can tune nav offset without touching HTML
+   - iOS-safe-area aware (notches)
+   ============================================ */
+
+:root {
+    /* Tweak these to match your site */
+    --nav-height: 72px;
+    /* your navbar height */
+    --music-pad: 16px;
+    /* spacing from edges */
+    --music-notify-offset: 100px;
+    /* distance below player for notifications */
+}
+
 /* ============================================
    MUSIC PLAYER
    ============================================ */
 
 .music-player {
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+
+    /* Top-left, below nav (Option A + Option B combined) */
+    top: calc(env(safe-area-inset-top) + var(--nav-height) + var(--music-pad));
+    left: calc(env(safe-area-inset-left) + var(--music-pad));
+
+    /* Reset old bottom/right anchoring */
+    bottom: auto;
+    right: auto;
+
     z-index: 1000;
     display: flex;
     flex-direction: column;
@@ -97,11 +121,21 @@
     color: var(--accent);
 }
 
-/* Notification when music starts */
+/* ============================================
+   Notification when music starts (Top-left)
+   ============================================ */
+
 .music-notification {
     position: fixed;
-    bottom: 100px;
-    right: 20px;
+
+    /* Place below nav, top-left, offset below player */
+    top: calc(env(safe-area-inset-top) + var(--nav-height) + var(--music-notify-offset));
+    left: calc(env(safe-area-inset-left) + var(--music-pad));
+
+    /* Reset old bottom/right anchoring */
+    bottom: auto;
+    right: auto;
+
     background: rgba(7, 10, 18, 0.95);
     border: 2px solid var(--accent);
     border-radius: 12px;
@@ -110,14 +144,14 @@
     font-size: 0.7rem;
     color: var(--accent);
     z-index: 1001;
-    animation: slideInRight 0.3s ease, fadeOut 0.5s ease 2.5s forwards;
+    animation: slideInLeft 0.3s ease, fadeOut 0.5s ease 2.5s forwards;
     pointer-events: none;
 }
 
-@keyframes slideInRight {
+@keyframes slideInLeft {
     from {
         opacity: 0;
-        transform: translateX(100px);
+        transform: translateX(-100px);
     }
 
     to {
@@ -132,11 +166,15 @@
     }
 }
 
-/* Mobile positioning */
+/* ============================================
+   Mobile positioning
+   ============================================ */
 @media (max-width: 768px) {
-    .music-player {
-        bottom: 80px;
-        right: 15px;
+    :root {
+        --nav-height: 64px;
+        /* tweak for mobile navbar if different */
+        --music-pad: 12px;
+        --music-notify-offset: 90px;
     }
 
     .music-toggle {
@@ -150,7 +188,9 @@
     }
 }
 
-/* Respect reduced motion */
+/* ============================================
+   Respect reduced motion
+   ============================================ */
 @media (prefers-reduced-motion: reduce) {
     .music-icon--on {
         animation: none;
