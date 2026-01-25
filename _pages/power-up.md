@@ -203,3 +203,5 @@ sitemap:
     <a class="btn" href="/vault/">VIEW PROJECTS</a>
   </div>
 </section>
+
+{% include contact-form.html %}

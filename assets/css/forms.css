@@ -1,0 +1,171 @@
+/* ============================================
+   ARCADE FORM THEMING
+   Contact forms with retro arcade styling
+   ============================================ */
+
+.contact-panel {
+    background: rgba(7, 10, 18, 0.95);
+    border: 2px solid var(--accent);
+    position: relative;
+    overflow: hidden;
+}
+
+/* Arcade screen border effect */
+.contact-panel::before {
+    content: "";
+    position: absolute;
+    inset: -2px;
+    border-radius: var(--radius);
+    background: linear-gradient(45deg,
+            var(--accent) 0%,
+            var(--accent2) 50%,
+            var(--accent) 100%);
+    filter: blur(20px);
+    z-index: -1;
+    opacity: 0.3;
+    animation: formGlow 3s ease-in-out infinite;
+}
+
+@keyframes formGlow {
+
+    0%,
+    100% {
+        opacity: 0.3;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+}
+
+/* CRT scanline effect on form */
+.contact-form {
+    position: relative;
+}
+
+.contact-form::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: repeating-linear-gradient(0deg,
+            rgba(0, 0, 0, 0.05) 0px,
+            rgba(0, 0, 0, 0.05) 1px,
+            transparent 1px,
+            transparent 2px);
+    pointer-events: none;
+    z-index: 1;
+}
+
+/* Make sure form fields are above scanlines */
+.form-group {
+    position: relative;
+    z-index: 2;
+}
+
+/* Arcade button styling for submit */
+.contact-form button[type="submit"] {
+    position: relative;
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.contact-form button[type="submit"]:hover {
+    transform: translateY(-2px);
+    box-shadow:
+        0 0 20px rgba(123, 252, 255, 0.5),
+        0 4px 12px rgba(0, 0, 0, 0.8);
+}
+
+.contact-form button[type="submit"]:active {
+    transform: translateY(0);
+}
+
+/* Input field arcade glow on focus */
+.form-input:focus,
+.form-textarea:focus {
+    box-shadow:
+        0 0 0 3px rgba(123, 252, 255, 0.1),
+        0 0 20px rgba(123, 252, 255, 0.2),
+        inset 0 0 10px rgba(123, 252, 255, 0.05);
+}
+
+/* Character counter effect (optional) */
+.form-textarea:focus {
+    background:
+        rgba(0, 0, 0, 0.6),
+        repeating-linear-gradient(90deg,
+            transparent 0px,
+            rgba(123, 252, 255, 0.02) 1px,
+            transparent 2px,
+            transparent 20px);
+}
+
+/* Label glow when field is focused */
+.form-group:focus-within .form-label {
+    color: var(--accent);
+    text-shadow: 0 0 10px rgba(123, 252, 255, 0.5);
+}
+
+/* Arcade-style validation messages */
+.form-input:invalid:not(:placeholder-shown) + .form-error,
+.form-textarea:invalid:not(:placeholder-shown) + .form-error {
+    display: block;
+    font-family: var(--arcade);
+    font-size: 0.65rem;
+    color: var(--accent2);
+    text-transform: uppercase;
+    margin-top: 0.5rem;
+    animation: errorBlink 0.5s ease-in-out 3;
+}
+
+@keyframes errorBlink {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.3;
+    }
+}
+
+/* Loading state (for future enhancement) */
+.contact-form.submitting {
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+.contact-form.submitting::before {
+    content: "SENDING...";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: var(--arcade);
+    font-size: 1.5rem;
+    color: var(--accent);
+    text-shadow: 0 0 20px rgba(123, 252, 255, 0.8);
+    z-index: 10;
+    animation: blink 1s step-end infinite;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+    .contact-form button[type="submit"] {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .form-actions {
+        align-items: stretch;
+    }
+}

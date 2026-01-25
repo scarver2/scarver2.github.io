@@ -1,0 +1,48 @@
+<section class="panel contact-panel">
+    <header class="panel__head">
+        <h2>INSERT COIN (CONTACT)</h2>
+        <p class="panel__sub">Ready to build something great? Drop me a message.</p>
+    </header>
+
+    <form class="contact-form" action="https://formsubmit.co/f0c3f2a39f2c5d002582fe4ec731237d" method="POST">
+        <!-- Hidden fields -->
+        <input type="hidden" name="_subject" value="stancarver.com contact form">
+        <input type="hidden" name="_next" value="https://stancarver.com/thanks/">
+        <input type="hidden" name="_captcha" value="false">
+
+        <!-- Honeypot -->
+        <input type="text" name="_honey" class="honeypot">
+
+        <!-- Form fields -->
+        <div class="form-group">
+            <label for="contact-name">
+                <span class="form-label">NAME</span>
+                <span class="form-required">*</span>
+            </label>
+            <input type="text" id="contact-name" name="name" class="form-input" placeholder="Ready Player One" required>
+        </div>
+
+        <div class="form-group">
+            <label for="contact-email">
+                <span class="form-label">EMAIL</span>
+                <span class="form-required">*</span>
+            </label>
+            <input type="email" id="contact-email" name="email" class="form-input" placeholder="player1@example.com" required>
+        </div>
+
+        <div class="form-group">
+            <label for="contact-message">
+                <span class="form-label">MESSAGE</span>
+                <span class="form-required">*</span>
+            </label>
+            <textarea id="contact-message" name="message" class="form-textarea" rows="6" placeholder="Tell me about your project, challenge, or opportunity..." required></textarea>
+        </div>
+
+        <div class="form-actions">
+            <button type="submit" class="btn primary coin-link">
+                SEND MESSAGE
+            </button>
+            <p class="form-note">Response time: Usually within 24 hours</p>
+        </div>
+    </form>
+</section>

@@ -256,3 +256,5 @@ sitemap:
     </div>
   </div>
 </section>
+
+{% include contact-form.html %}

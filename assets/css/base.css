@@ -154,3 +154,111 @@ p {
 .link:hover {
     text-decoration: underline;
 }
+
+/* ============================================
+   FORM ELEMENTS (Base Styles)
+   ============================================ */
+
+/* Honeypot (hide from humans, visible to bots) */
+.honeypot {
+    position: absolute;
+    left: -9999px;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+/* Form groups */
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+/* Labels */
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.form-label {
+    font-family: var(--arcade);
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--text);
+}
+
+.form-required {
+    color: var(--accent2);
+    margin-left: 0.25rem;
+}
+
+/* Input fields */
+.form-input,
+.form-textarea {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    font-family: var(--mono);
+    font-size: 0.95rem;
+    color: var(--text);
+    background: rgba(0, 0, 0, 0.4);
+    border: 2px solid var(--line);
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.form-input:focus,
+.form-textarea:focus {
+    outline: none;
+    border-color: var(--accent);
+    background: rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 0 3px rgba(123, 252, 255, 0.1);
+}
+
+.form-input::placeholder,
+.form-textarea::placeholder {
+    color: var(--muted);
+    opacity: 0.5;
+}
+
+/* Textarea specific */
+.form-textarea {
+    resize: vertical;
+    min-height: 120px;
+    line-height: 1.5;
+}
+
+/* Form actions */
+.form-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.form-note {
+    font-family: var(--mono);
+    font-size: 0.85rem;
+    color: var(--muted);
+    margin: 0;
+}
+
+/* Disabled state */
+.form-input:disabled,
+.form-textarea:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* Error state */
+.form-input:invalid:not(:placeholder-shown),
+.form-textarea:invalid:not(:placeholder-shown) {
+    border-color: var(--accent2);
+}
+
+/* Success state (for future use) */
+.form-input.success,
+.form-textarea.success {
+    border-color: #00ff88;
+}
