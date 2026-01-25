@@ -307,9 +307,6 @@ PLATFORMS
   x86_64-linux-musl
 
 DEPENDENCIES
-  base64
-  bigdecimal
-  csv
   faraday-retry
   github-pages
   jekyll-feed
@@ -317,5 +314,8 @@ DEPENDENCIES
   jekyll-seo-tag
   jekyll-sitemap
 
+RUBY VERSION
+   ruby 3.3.10p183
+
 BUNDLED WITH
-   2.6.9
+   2.5.22
