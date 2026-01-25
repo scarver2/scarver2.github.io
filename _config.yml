@@ -19,10 +19,13 @@ plugins:
 # Exclude files
 exclude:
   - README.md
+  - TODO.md
   - Gemfile
   - Gemfile.lock
   - node_modules
   - vendor
+  - Procfile.dev
+  - bin
 
 # Defaults
 defaults:
@@ -37,14 +40,14 @@ defaults:
       layout: "default"
 
 # Social Media
-linkedin_username: scarver2
 github_username: scarver2
-youtube_channel: "@scarver2"
+linkedin_username: scarver2
 stackoverflow_user: 307308/scarver2
+youtube_channel: "@scarver2"
 
 # Custom
-tagline: "Ruby on Rails"
 location: "Anna, TX"
+tagline: "Ruby on Rails"
 
 # Collections
 collections:

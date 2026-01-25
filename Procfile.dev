@@ -1,0 +1,2 @@
+# ts: npm run watch:ts
+jekyll: bundle exec jekyll serve --livereload

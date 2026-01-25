@@ -1,0 +1,36 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+cd "$ROOT_DIR"
+
+procfile="${PROCFILE:-Procfile.dev}"
+
+if [[ ! -f "$procfile" ]]; then
+  echo "Missing $procfile"
+  exit 1
+fi
+
+# Pick a runner (prefer Overmind)
+if command -v overmind >/dev/null 2>&1; then
+  exec overmind start -f "$procfile"
+elif command -v foreman >/dev/null 2>&1; then
+  exec foreman start -f "$procfile"
+elif command -v honcho >/dev/null 2>&1; then
+  exec honcho start -f "$procfile"
+else
+  cat <<'EOF'
+No Procfile runner found.
+Install one of:
+  - overmind (recommended)
+  - foreman
+  - honcho
+
+Examples:
+  brew install overmind
+  gem install foreman
+  pip install honcho
+EOF
+  exit 1
+fi
+
