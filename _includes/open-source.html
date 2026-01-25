@@ -13,9 +13,9 @@
       <h3>{{ project.name }}</h3>
       <p>{{ project.description }}</p>
       <div class="card__links">
-        <a href="{{ project.repo }}" target="_blank" rel="noopener noreferrer">Repo</a>
+        <a class="powerup-link repo" href="{{ project.repo }}" target="_blank" rel="noopener noreferrer">Repo</a>
         {% if project.pr %}
-        <a href="{{ project.pr }}" target="_blank" rel="noopener noreferrer">Pull Request</a>
+        <a class="powerup-link pr" href="{{ project.pr }}" target="_blank" rel="noopener noreferrer">Pull Request</a>
         {% endif %}
       </div>
     </article>

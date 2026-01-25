@@ -1,0 +1,298 @@
+/* ============================================
+   INSERT COIN LANDING PAGE
+   Game selection / attract mode styling
+   ============================================ */
+
+/* Hero Section */
+.insert-coin-hero {
+    text-align: center;
+    padding: 3rem 2rem;
+}
+
+.insert-coin-screen {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.insert-coin-flash {
+    font-family: var(--arcade);
+    font-size: 1.5rem;
+    color: var(--accent);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 2rem;
+    animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+
+    0%,
+    50% {
+        opacity: 1;
+    }
+
+    51%,
+    100% {
+        opacity: 0;
+    }
+}
+
+.insert-coin-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.insert-coin-subtitle {
+    font-family: var(--retro);
+    font-size: 1.2em;
+    color: var(--muted);
+}
+
+/* Fighter Select */
+.fighter-select {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+@media (max-width: 900px) {
+    .fighter-select {
+        grid-template-columns: 1fr;
+    }
+}
+
+.fighter-card {
+    border: 2px solid var(--line);
+    border-radius: 16px;
+    padding: 2rem;
+    background: rgba(0, 0, 0, 0.3);
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.fighter-card:hover {
+    transform: translateY(-8px);
+    border-color: var(--accent);
+    box-shadow: 0 20px 60px rgba(123, 252, 255, 0.3);
+}
+
+.fighter-card--cto:hover {
+    background: rgba(123, 252, 255, 0.05);
+}
+
+.fighter-card--rails:hover {
+    background: rgba(255, 79, 216, 0.05);
+}
+
+.fighter-badge {
+    display: inline-block;
+    font-family: var(--arcade);
+    font-size: 0.7rem;
+    letter-spacing: 2px;
+    padding: 6px 12px;
+    border-radius: 999px;
+    background: rgba(123, 252, 255, 0.9);
+    color: #001018;
+    margin-bottom: 1rem;
+}
+
+.fighter-badge--alt {
+    background: rgba(255, 79, 216, 0.85);
+    color: #120012;
+}
+
+.fighter-icon {
+    font-size: 4rem;
+    margin: 1rem 0;
+    filter: drop-shadow(0 0 20px rgba(123, 252, 255, 0.4));
+}
+
+.fighter-title {
+    font-family: var(--arcade);
+    font-size: 1.5rem;
+    margin: 1rem 0 0.5rem;
+}
+
+.fighter-subtitle {
+    font-family: var(--retro);
+    font-size: 1em;
+    color: var(--muted);
+    margin-bottom: 2rem;
+}
+
+.fighter-stats {
+    background: rgba(0, 0, 0, 0.4);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.fighter-stat {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 0.75rem 0;
+    border-bottom: 1px dashed rgba(120, 170, 255, 0.22);
+}
+
+.fighter-stat:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.stat-label {
+    font-family: var(--arcade);
+    font-size: 0.7rem;
+    color: var(--accent);
+    letter-spacing: 1px;
+}
+
+.stat-value {
+    font-family: var(--mono);
+    font-size: 0.85rem;
+    color: var(--text);
+    text-align: right;
+}
+
+.fighter-perks h3 {
+    font-family: var(--arcade);
+    font-size: 0.85rem;
+    margin-bottom: 1rem;
+    color: var(--text);
+}
+
+.fighter-perks .bullets {
+    margin-bottom: 2rem;
+}
+
+.fighter-btn {
+    width: 100%;
+    justify-content: center;
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+/* Difficulty Grid */
+.difficulty-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+@media (max-width: 900px) {
+    .difficulty-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.difficulty-card {
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 1.5rem;
+    background: rgba(255, 255, 255, 0.02);
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.difficulty-card:hover {
+    background: rgba(123, 252, 255, 0.05);
+    transform: translateY(-4px);
+}
+
+.difficulty-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.difficulty-card h3 {
+    font-family: var(--arcade);
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.difficulty-card p {
+    color: var(--muted);
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.difficulty-meta {
+    font-family: var(--mono);
+    font-size: 0.75rem;
+    color: var(--accent);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Stage Grid */
+.stage-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+@media (max-width: 900px) {
+    .stage-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.stage-card {
+    border: 2px solid var(--line);
+    border-radius: 12px;
+    padding: 2rem 1.5rem;
+    background: rgba(0, 0, 0, 0.3);
+    text-align: center;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.stage-card:hover {
+    border-color: var(--accent);
+    transform: scale(1.05);
+}
+
+.stage-number {
+    font-family: var(--arcade);
+    font-size: 3rem;
+    color: var(--accent);
+    opacity: 0.3;
+    margin-bottom: 1rem;
+}
+
+.stage-card h3 {
+    font-family: var(--arcade);
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.stage-card p {
+    color: var(--muted);
+    line-height: 1.6;
+}
+
+/* Final CTA */
+.insert-coin-cta {
+    text-align: center;
+    padding: 3rem 2rem;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.insert-coin-final {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.insert-coin-final .insert-coin-flash {
+    margin-bottom: 1rem;
+}
+
+.insert-coin-final h2 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}

@@ -1,0 +1,42 @@
+companies:
+  - name: "[Company Name 1]"
+    role: "CTO / Technical Leadership"
+  - name: "[Company Name 2]"
+    role: "Principal Engineer"
+  - name: "[Company Name 3]"
+    role: "Technical Rescue & Modernization"
+  # Add your actual companies here
+
+projects:
+  - name: "BlueEyes"
+    type: "RubyGem • Scaffolding Tool"
+  - name: "Frankie"
+    type: "Developer Tooling"
+  - name: "Howdy World"
+    type: "Infrastructure Patterns"
+  - name: "Guard::Bundler"
+    type: "Open Source Contribution"
+  - name: "Letter Opener"
+    type: "Open Source Contribution"
+  - name: "ActiveAdmin"
+    type: "Open Source Contribution"
+
+publications:
+  - title: "WYSIWYG in ActiveAdmin: A 2014 Time Capsule"
+    venue: "YouTube • 2025"
+  - title: "Publishing My First RubyGem: Blue Eyes"
+    venue: "Blog • 2024"
+  # Add any other publications, articles, talks
+
+achievements:
+  - title: "Mayor Pro Tem"
+    location: "Anna, Texas"
+  - title: "Volunteer of the Year"
+    location: "Anna, Texas"
+  - title: "First Published RubyGem"
+    location: "Blue Eyes v1.3.3"
+
+special_thanks:
+  name: "Allison"
+  title: "Player 2 • Best Co-Op Partner"
+  message: "Achievement Unlocked: Perfect Marriage ❤️"

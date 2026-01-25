@@ -39,7 +39,7 @@ sitemap:
         Ruby Q&amp;A track record. I'm in the top tier for Ruby based on contributions (see profile).
       </p>
       <div class="card__links">
-        <a href="https://stackoverflow.com/users/307308/scarver2" target="_blank" rel="noreferrer">Open Profile</a>
+        <a class="powerup-link external" href="https://stackoverflow.com/users/307308/scarver2" target="_blank" rel="noreferrer">Open Profile</a>
       </div>
     </article>
 
@@ -49,7 +49,7 @@ sitemap:
         Repos, tooling, experiments, and shipped code in public.
       </p>
       <div class="card__links">
-        <a href="https://github.com/scarver2" target="_blank" rel="noreferrer">Open GitHub</a>
+        <a class="powerup-link external" href="https://github.com/scarver2" target="_blank" rel="noreferrer">Open GitHub</a>
       </div>
     </article>
 
@@ -59,7 +59,7 @@ sitemap:
         Professional timeline and leadership context.
       </p>
       <div class="card__links">
-        <a href="https://www.linkedin.com/in/scarver2/" target="_blank" rel="noreferrer">Open LinkedIn</a>
+        <a class="powerup-link external" href="https://www.linkedin.com/in/scarver2/" target="_blank" rel="noreferrer">Open LinkedIn</a>
       </div>
     </article>
   </div>
@@ -199,7 +199,7 @@ sitemap:
   </div>
 
   <div class="ctaRow" style="margin-top:14px;">
-    <a class="btn primary" href="/credits/#contact">START CONVERSATION</a>
+<a class="btn primary coin-link" href="/credits/#contact">START CONVERSATION</a>
     <a class="btn" href="/vault/">VIEW PROJECTS</a>
   </div>
 </section>

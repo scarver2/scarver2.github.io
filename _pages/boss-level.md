@@ -26,7 +26,7 @@ sitemap:
       </p>
 
       <div class="ctaRow">
-        <a class="btn primary" href="/credits/#contact">START ON LINKEDIN</a>
+<a class="btn primary coin-link" href="/credits/#contact">START ON LINKEDIN</a>
         <a class="btn" href="/power-up/">VERIFY RAILS DEPTH</a>
       </div>
 
@@ -200,7 +200,8 @@ sitemap:
   </div>
 
   <div class="ctaRow" style="margin-top:14px;">
-    <a class="btn primary" href="/credits/#contact">REACH OUT</a>
+    <a class="btn primary coin-link" href="/credits/#contact">REACH OUT</a>
+
     <a class="btn" href="/vault/">SEE WORK</a>
   </div>
 </section>
@@ -215,10 +216,9 @@ sitemap:
     <div class="card">
       <h3>LinkedIn (professional timeline)</h3>
       <p>Best place for roles, leadership scope, and references.</p>
-      <div class="card__links">
-        <a href="https://www.linkedin.com/in/scarver2/" target="_blank" rel="noreferrer">Open LinkedIn</a>
-      </div>
-    </div>
+<div class="card__links">
+  <a class="powerup-link external" href="https://www.linkedin.com/in/scarver2/" target="_blank" rel="noreferrer">Open LinkedIn</a>
+</div>    </div>
 
     <div class="card">
       <h3>Rails depth (Power-Up)</h3>
