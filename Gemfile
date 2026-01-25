@@ -1,10 +1,8 @@
+# frozen_string_literal: true
+
 source "https://rubygems.org"
 
 ruby '3.3.10'
-
-# gem "csv"  # Required for Ruby 3.4+
-# gem "base64" # Also needed for Ruby 3.4+
-# gem "bigdecimal" # Required for Ruby 3.4+
 
 group :jekyll_plugins do
   gem "github-pages"
