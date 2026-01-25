@@ -217,3 +217,91 @@
     }, 1000);
   }
 })();
+/* =========================
+   Background Music Player
+   ========================= */
+(() => {
+  const MUSIC_ENABLED_KEY = 'scarver2:music';
+  const bgMusic = document.getElementById('bgMusic');
+  const musicPlayer = document.getElementById('musicPlayer');
+  const musicToggle = document.getElementById('musicToggle');
+
+  if (!bgMusic || !musicPlayer || !musicToggle) return;
+
+  // Check saved preference - DEFAULT TO ON
+  let musicEnabled = localStorage.getItem(MUSIC_ENABLED_KEY);
+  if (musicEnabled === null) {
+    musicEnabled = true; // Default ON for first-time visitors
+  } else {
+    musicEnabled = musicEnabled === 'true';
+  }
+
+  bgMusic.volume = 0.15; // Very low volume (15%)
+
+  // Check for reduced motion preference
+  const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (prefersReducedMotion) {
+    musicEnabled = false;
+  }
+
+  // Initialize state
+  if (musicEnabled) {
+    musicPlayer.classList.add('playing');
+    // Try to play (browsers block autoplay, so this might fail)
+    const playPromise = bgMusic.play();
+    if (playPromise !== undefined) {
+      playPromise.catch(() => {
+        // Autoplay blocked - user will need to click
+        musicEnabled = false;
+        musicPlayer.classList.remove('playing');
+      });
+    }
+  }
+
+  // Rest of the code stays the same...
+  // Toggle music
+  musicToggle.addEventListener('click', () => {
+    musicEnabled = !musicEnabled;
+    localStorage.setItem(MUSIC_ENABLED_KEY, musicEnabled);
+
+    if (musicEnabled) {
+      musicPlayer.classList.add('playing');
+      bgMusic.play();
+      showNotification('SOUNDTRACK ON');
+    } else {
+      musicPlayer.classList.remove('playing');
+      bgMusic.pause();
+      showNotification('SOUNDTRACK OFF');
+    }
+  });
+
+  // Show notification
+  function showNotification(message) {
+    const existing = document.querySelector('.music-notification');
+    if (existing) existing.remove();
+
+    const notification = document.createElement('div');
+    notification.className = 'music-notification';
+    notification.textContent = message;
+    document.body.appendChild(notification);
+
+    setTimeout(() => {
+      notification.remove();
+    }, 3000);
+  }
+
+  // Fade out music when leaving page
+  window.addEventListener('beforeunload', () => {
+    if (bgMusic && !bgMusic.paused) {
+      let volume = bgMusic.volume;
+      const fadeOut = setInterval(() => {
+        if (volume > 0.05) {
+          volume -= 0.05;
+          bgMusic.volume = volume;
+        } else {
+          clearInterval(fadeOut);
+        }
+      }, 50);
+    }
+  });
+})();
