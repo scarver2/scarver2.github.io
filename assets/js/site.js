@@ -217,3 +217,115 @@
     }, 1000);
   }
 })();
+
+/* =========================
+   Contact Form Validation
+   ========================= */
+(() => {
+  const form = document.querySelector('.contact-form');
+  if (!form) return;
+
+  const submitBtn = form.querySelector('button[type="submit"]');
+  const nameInput = form.querySelector('input[name="name"]');
+  const emailInput = form.querySelector('input[name="email"]');
+  const messageInput = form.querySelector('textarea[name="message"]');
+  const honeypot = form.querySelector('input[name="_honey"]');
+
+  // Disable submit button initially
+  submitBtn.disabled = true;
+  submitBtn.style.opacity = '0.5';
+  submitBtn.style.cursor = 'not-allowed';
+
+  // Validate form
+  function validateForm() {
+    // Check if honeypot is filled (bot detected)
+    if (honeypot && honeypot.value.trim() !== '') {
+      console.log('Bot detected - honeypot filled');
+      return false;
+    }
+
+    // Check if all required fields are valid
+    const isNameValid = nameInput && nameInput.value.trim().length > 0;
+    const isEmailValid = emailInput && emailInput.validity.valid && emailInput.value.trim().length > 0;
+    const isMessageValid = messageInput && messageInput.value.trim().length > 0;
+
+    return isNameValid && isEmailValid && isMessageValid;
+  }
+
+  // Update button state
+  function updateButtonState() {
+    const isValid = validateForm();
+
+    if (isValid) {
+      submitBtn.disabled = false;
+      submitBtn.style.opacity = '1';
+      submitBtn.style.cursor = 'pointer';
+    } else {
+      submitBtn.disabled = true;
+      submitBtn.style.opacity = '0.5';
+      submitBtn.style.cursor = 'not-allowed';
+    }
+  }
+
+  // Add event listeners to all fields
+  [nameInput, emailInput, messageInput].forEach(field => {
+    if (field) {
+      field.addEventListener('input', updateButtonState);
+      field.addEventListener('blur', updateButtonState);
+    }
+  });
+
+  // Watch honeypot (if bot fills it, disable form)
+  if (honeypot) {
+    honeypot.addEventListener('input', () => {
+      if (honeypot.value.trim() !== '') {
+        console.log('Bot activity detected');
+        submitBtn.disabled = true;
+        submitBtn.style.opacity = '0.3';
+        submitBtn.style.cursor = 'not-allowed';
+        // Prevent form submission
+        form.addEventListener('submit', (e) => {
+          e.preventDefault();
+          console.log('Submission blocked - bot detected');
+          return false;
+        }, { once: true });
+      }
+    });
+  }
+
+  // Double-check on submit
+  form.addEventListener('submit', (e) => {
+    if (!validateForm()) {
+      e.preventDefault();
+      console.log('Form submission blocked - validation failed');
+
+      // Show notification
+      showFormError('Please fill out all required fields correctly');
+      return false;
+    }
+
+    // Show loading state
+    submitBtn.disabled = true;
+    submitBtn.textContent = 'SENDING...';
+    form.classList.add('submitting');
+  });
+
+  // Show error notification
+  function showFormError(message) {
+    // Remove existing notification
+    const existing = document.querySelector('.form-error-notification');
+    if (existing) existing.remove();
+
+    const notification = document.createElement('div');
+    notification.className = 'form-error-notification';
+    notification.textContent = message;
+    form.appendChild(notification);
+
+    setTimeout(() => {
+      notification.remove();
+    }, 3000);
+  }
+
+  // Initial validation check
+  updateButtonState();
+})();

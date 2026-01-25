@@ -169,3 +169,70 @@
         align-items: stretch;
     }
 }
+
+/* Form error notification */
+.form-error-notification {
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    background: rgba(255, 79, 216, 0.95);
+    border: 2px solid var(--accent2);
+    border-radius: 12px;
+    padding: 1rem 1.5rem;
+    font-family: var(--arcade);
+    font-size: 0.7rem;
+    color: #120012;
+    z-index: 1001;
+    animation: slideInRight 0.3s ease, fadeOut 0.5s ease 2.5s forwards;
+    pointer-events: none;
+    max-width: 300px;
+    text-align: center;
+}
+
+/* Disabled button state */
+.contact-form button[type="submit"]:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    transform: none !important;
+    box-shadow: none !important;
+}
+
+.contact-form button[type="submit"]:disabled:hover {
+    transform: none;
+    box-shadow: none;
+}
+
+/* Submitting state (already exists, but ensure it's complete) */
+.contact-form.submitting {
+    opacity: 0.6;
+    pointer-events: none;
+    position: relative;
+}
+
+.contact-form.submitting::before {
+    content: "SENDING...";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: var(--arcade);
+    font-size: 1.5rem;
+    color: var(--accent);
+    text-shadow: 0 0 20px rgba(123, 252, 255, 0.8);
+    z-index: 10;
+    animation: blink 1s step-end infinite;
+}
+
+/* Honeypot (hide from humans, visible to bots) */
+.honeypot-wrapper {
+    position: absolute;
+    left: -9999px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+.honeypot {
+    width: 100%;
+    padding: 0.75rem;
+}
