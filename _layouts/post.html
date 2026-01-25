@@ -1,22 +1,29 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  
+
   {% seo %}
-  
+
   <meta name="theme-color" content="#070A12">
   <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+
+  <!-- Retro Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="/assets/css/site.css">
 </head>
 
-<body>
+<body class="site">
   <a class="skip" href="#main">Skip to content</a>
 
   {% include header.html %}
 
-  <main id="main" class="wrap">
+  <main id="main" class="wrap site-content">
     <article class="panel">
       <header class="panel__head">
         <div class="tag">{{ page.date | date: "%B %d, %Y" }}</div>
@@ -48,4 +55,5 @@
 
   <script src="/assets/js/site.js"></script>
 </body>
+
 </html>
