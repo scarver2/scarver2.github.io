@@ -71,7 +71,7 @@
 }
 
 /* Navigation */
-.nav a {
+.topbar nav a {
     color: var(--text);
     margin-left: 14px;
     padding: 8px 10px;
@@ -80,7 +80,7 @@
     transition: all 0.2s ease;
 }
 
-.nav a:hover {
+.topbar nav a:hover {
     border-color: var(--line);
     background: rgba(123, 252, 255, 0.06);
 }
@@ -93,7 +93,7 @@
 }
 
 /* Footer */
-.footer {
+footer {
     margin-top: auto;
     padding: 14px 18px;
     display: flex;
@@ -104,12 +104,12 @@
     font-size: 12px;
 }
 
-.footer a {
+footer a {
     color: var(--muted);
     margin-left: 12px;
 }
 
-.footer a:hover {
+footer a:hover {
     color: var(--text);
 }
 
