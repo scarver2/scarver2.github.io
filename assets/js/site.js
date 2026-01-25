@@ -225,6 +225,14 @@
   const form = document.querySelector('.contact-form');
   if (!form) return;
 
+  // Set the redirect URL dynamically based on current domain
+  const redirectInput = document.getElementById('formRedirect');
+  if (redirectInput) {
+    const currentOrigin = window.location.origin; // Gets http://localhost:4000 or https://stancarver.com
+    redirectInput.value = `${currentOrigin}/thanks/`;
+    console.log('Form redirect set to:', redirectInput.value);
+  }
+
   const submitBtn = form.querySelector('button[type="submit"]');
   const nameInput = form.querySelector('input[name="name"]');
   const emailInput = form.querySelector('input[name="email"]');
