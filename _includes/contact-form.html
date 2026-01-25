@@ -5,15 +5,15 @@
     </header>
 
     <form class="contact-form" action="https://formsubmit.co/f0c3f2a39f2c5d002582fe4ec731237d" method="POST">
-        <!-- Hidden fields -->
         <input type="hidden" name="_subject" value="stancarver.com contact form">
         <input type="hidden" name="_next" value="https://scarver2.github.io/thanks/">
         <input type="hidden" name="_captcha" value="false">
 
-        <!-- Honeypot -->
-        <input type="text" name="_honey" class="honeypot">
+        <div class="honeypot-wrapper">
+            <label for="website">Website (leave blank)</label>
+            <input type="text" id="website" name="_honey" class="honeypot" tabindex="-1" autocomplete="off">
+        </div>
 
-        <!-- Form fields -->
         <div class="form-group">
             <label for="contact-name">
                 <span class="form-label">NAME</span>
