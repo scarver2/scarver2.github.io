@@ -56,15 +56,16 @@
 
 ### Companies & Ventures
 
-* Purecreate Group
-* A1 Web
+* Purecreate
+* A1 Web Consultancy
 * Texas Embroidery Ranch
 * Carver & Son
-* Mercury Flight
-* CallTextEmail
-* Yellow Page Autos
-* EveryCarListed
+* Mercury Flight (CallTextEmail)
+* Yellow Page Autos (EveryCarListed)
 * Itique
+* Safe Harbor Leads
+* 3 Strand Restaurants
+* Exodus Multimedia
 
 ### Commercial Skills
 
@@ -109,16 +110,16 @@
 
 ### Signature Initiatives
 
-* Skatepark project
-* Makerspace vision
-* Downtown vitality
-* Youth programming
+* Skatepark project (Tony Hawk loved it)
+* Community Library & Makerspace
+* Downtown revitalization
+* Youth Education & Recreation programming
 * Parks expansion
 * Workforce growth
 * Community events
 * City branding support
 * Infrastructure advocacy
-* Development review
+* Development reviews
 
 ## Technologist
 
@@ -137,28 +138,70 @@
 * Security mindset
 * Observability
 
-#### Languages
+#### Operating Systems
 
-* Ruby
-* Java
-* JavaScript
-* TypeScript
-* SQL
-* HTML
-* CSS
+* Linux (Arch,Debian, Ubuntu)
+* macOS
+* ❤️ AmigaOS
+* Windows 🤢🤮
+
+##### Shells
+
+* Zsh (Oh My Zsh)
 * Bash
-* Zsh
-* YAML
+* Amiga Shell
+
+#### Software Languages
+
+##### Software Programming languages
+
+* Ruby 💎
+* SQL
+* JavaScript (ES6+, Node.js)
+* TypeScript
+* Zig
+* Elixir
+* Java
+* Elm
+
+##### File Formats
+
+* CSS
+* HTML
+* IFF
 * JSON
+* Markdown
+* XML
+* YAML
 
 #### Frameworks & Platforms
 
+##### Ruby Frameworks
 * Ruby on Rails
-* Sinatra
-* Rack
-* Jekyll
 * ActiveAdmin
-* ActionMailer
+* Sinatra (Padrino)
+* Rack (Passenger, Puma, Unicorn, WEBrick)
+* Jekyll
+* Middleman
+* Cuba
+
+##### JavaScript Frameworks & Libraries
+* React
+* jQuery
+* Vue
+* Node.js
+* Express
+* Angular
+
+##### CSS Frameworks
+* jQuery
+* Foundation
+* Bootstrap
+* Tailwind CSS (Flowbite)
+* Shadcn UI
+* SASS/SCSS
+* Grid360
+* Blueprint
 
 ### Data & Systems
 
@@ -177,29 +220,35 @@
 
 ### DevOps & Infrastructure
 
-#### Deployment & Ops
+#### Deployment, Orchestration & Containerization
 
 * Docker
 * Docker Compose
 * Kamal 2
+* Jenkins
+* Ansible
+* Capistrano
 * GitHub Actions
-* DigitalOcean
-* GHCR
-* Linux servers
-* SSL/TLS
 * Secrets management
+
+#### Hosting & Security
+
+* GitHub Pages
+* VPS (AWS, Digital Ocean, Heroku, Hetzner, Linode, Media Temple, Rackspace, Vultr)
+* SSL/TLS
+* Secrets management (Bitwarden, OnePassword)
 
 #### Tooling & DX
 
 * Guard
 * RuboCop
-* Bundler
-* SimpleCov
 * RSpec
-* Rack::Test
-* Procfile workflows
-* Overmind
-* mise versioning
+* SimpleCov
+* Foreman Procfile workflows (Overmind)
+* Version Management
+    * General: ASDF, Homebrew, Mise
+    * Ruby: Bundler, Rbenv, RVM
+    * Node.js: Bun, NVM
 
 ### Open Source
 
@@ -288,6 +337,15 @@
 * Press-ready language
 
 ## Media & Content
+
+### Special Effects
+
+* Motion graphics
+* Morphing
+* VFX
+* CGI
+* Pyrotechnics 
+* 3D modeling & rendering
 
 ### Podcast & Video
 
