@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Power-Up — Ruby on Rails
+title: Ruby on Rails - Power-Up with Stan Carver II
 description: Stan Carver II (scarver2) — Ruby on Rails expertise - architecture, upgrades, testing, background jobs, performance, and production delivery.
 permalink: /power-up/
 sitemap:
@@ -8,15 +8,29 @@ sitemap:
   changefreq: monthly
 ---
 
+
 <section class="panel">
   <header class="panel__head">
+    <div class="avatar-crt">
+      <div class="avatar-frame">
+          <a class="external" href="https://www.linkedin.com/in/scarver2/" target="_blank">
+            <img src="/assets/images/ruby-on-rails-early-adopter.png" alt="Stan Carver II is an early adopter of Ruby on Rails" />
+          </a>
+      </div>
+    </div>
     <h1 class="glow">POWER-UP — RUBY ON RAILS</h1>
     <p class="panel__sub">
-      A dedicated page for recruiters and engineers who want hard signal: how I build Rails systems, what
-      I've used, and where to verify.
+      A dedicated page for recruiters and engineers who want hard signal: how I build Rails systems, what I've used, and where to verify.
     </p>
   </header>
 
+ 
+
+            <div class="scanlines"></div>
+            <div class="crt-glow"></div>
+          </div>
+        </div>
+      </div>
   <div class="meta" style="margin-top:12px;">
     <span class="chip">Architecture</span>
     <span class="chip">Upgrades &amp; Modernization</span>
@@ -29,7 +43,7 @@ sitemap:
 <section class="panel">
   <header class="panel__head">
     <h2>PROOF</h2>
-    <p class="panel__sub">Places where my Rails/Ruby work shows up in public.</p>
+    <p class="panel__sub">Places where my Ruby on Rails work shows up in public.</p>
   </header>
 
   <div class="cards">
@@ -67,8 +81,8 @@ sitemap:
 
 <section class="panel">
   <header class="panel__head">
-    <h2>WHAT I DO IN RAILS</h2>
-    <p class="panel__sub">The work recruiters usually mean when they say "prove it."</p>
+    <h2>THE RAILS WAY</h2>
+    <p class="panel__sub">I have Battle-tested and Proven Rails expertise.</p>
   </header>
 
   <div class="twoCol">

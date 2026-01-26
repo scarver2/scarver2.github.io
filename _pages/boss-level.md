@@ -10,7 +10,15 @@ sitemap:
 
 <section class="panel">
   <header class="panel__head">
-    <h1 class="glow">BOSS LEVEL (CTO)</h1>
+      <div class="avatar-crt">
+      <div class="avatar-frame">
+          <a class="external" href="https://www.linkedin.com/in/scarver2/" target="_blank">
+            <img src="/assets/images/stan-carver-cto.jpg" alt="Stan Carver II - Chief Technology Officer" />
+          </a>
+      </div>
+    </div>
+    <h1 class="glow">Chief Technology Officer</h1>
+    <h2 class="glow">VP of Application Development</h2>
     <p class="panel__sub">
       This page is for executives and hiring managers who want the leadership signal:
       how I run technology, ship outcomes, and keep production calm.

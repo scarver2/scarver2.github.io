@@ -79,7 +79,7 @@ sitemap:
       <p>Docs, conventions, and guardrails so teams can move without fear.</p>
     </article>
     <article class="card">
-      <h3>Calm execution</h3>
+      <h3>Smooth execution</h3>
       <p>Production is sacred. Fixes are measured. Decisions are recorded.</p>
     </article>
   </div>
