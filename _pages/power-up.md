@@ -14,7 +14,7 @@ sitemap:
     <div class="avatar-crt">
       <div class="avatar-frame">
           <a class="external" href="https://www.linkedin.com/in/scarver2/" target="_blank">
-            <img src="/assets/images/ruby-on-rails-early-adopter.png" alt="Stan Carver II is an early adopter of Ruby on Rails" />
+            <img src="/assets/images/ruby-on-rails-early-adopter.jpg" alt="Stan Carver II is an early adopter of Ruby on Rails" />
           </a>
       </div>
     </div>
