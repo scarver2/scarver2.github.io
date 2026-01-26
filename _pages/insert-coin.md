@@ -7,6 +7,9 @@ sitemap:
   priority: 1.0
   changefreq: weekly
 ---
+{% capture md %}
+{% include talents.md %}
+{% endcapture %}
 
 <section class="panel insert-coin-hero">
   <div class="insert-coin-screen">
@@ -158,6 +161,19 @@ sitemap:
     <div class="ctaRow" style="justify-content: center; margin-top: 2rem;">
       <a class="btn primary coin-link" href="/credits/#contact">INSERT COIN (CONTACT)</a>
       <a class="btn" href="/high-scores/">VIEW HIGH SCORES</a>
+    </div>
+  </div>
+</section>
+
+<section class="panel credits-scroll-container">
+  <header class="panel__head">
+    <h2>TALENT ROLL</h2>
+    <p class="panel__sub">A history of my talents and skills.</p>
+  </header>
+
+  <div class="credits-viewport">
+    <div class="credits-scroll" id="creditsScroll">
+      {{ md | markdownify }}
     </div>
   </div>
 </section>
