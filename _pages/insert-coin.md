@@ -176,6 +176,12 @@ sitemap:
       {{ md | markdownify }}
     </div>
   </div>
+
+  <!-- Controls -->
+  <div class="credits-controls">
+    <button id="pauseBtn" class="btn">⏸ PAUSE</button>
+    <button id="resetBtn" class="btn">⏮ RESET</button>
+  </div>
 </section>
 
 {% include contact-form.html %}
