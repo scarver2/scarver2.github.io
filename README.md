@@ -1,6 +1,6 @@
 # Ready Player One
 
-A personal website showcasing my work in software engineering and creative problem-solving, with subtle nods to astronomy, music, and classic gaming.
+My portfolio website showcasing my work in management, software engineering, and creative problem-solving, with subtle nods to astronomy, music, and classic gaming.
 
 ## Run Locally
 
@@ -33,8 +33,9 @@ scarver2.github.io/ (hyde branch)
 ├── boss-level.md           # Auto becomes /boss-level/
 ├── blog.html               # Blog listing at /blog/
 └── 404.html                # Custom 404
+```
 
 &copy;2026
-Stan Carver II [Portfolio](http://scarver2.github.io/) [LinkedIn](https://www.linkedin.com/in/scarver2/)
+[Stan Carver II](http://stancarver.com) [LinkedIn](https://www.linkedin.com/in/scarver2/)
 
 ![Made in Texas](https://raw.githubusercontent.com/scarver2/howdy-world/main/nginx/www/made-in-texas.png)
