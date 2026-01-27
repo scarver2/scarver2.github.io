@@ -1,2 +1,3 @@
-# ts: npm run watch:ts
+# FUTURE: ts: npm run watch:ts
+guard: bundle exec guard
 jekyll: bundle exec jekyll serve --livereload
