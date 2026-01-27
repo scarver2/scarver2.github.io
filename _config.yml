@@ -18,15 +18,20 @@ plugins:
 
 # Exclude files
 exclude:
-  - README.md
-  - TODO.md
+  - .rubocop_todo.yml
+  - .rubocop.yml
+  - bin
   - Gemfile
   - Gemfile.lock
+  - Guardfile
   - mise.toml
   - node_modules
-  - vendor
   - Procfile.dev
-  - bin
+  - README.md
+  - spec
+  - TESTING.md
+  - TODO.md
+  - vendor
 
 # Defaults
 defaults:
